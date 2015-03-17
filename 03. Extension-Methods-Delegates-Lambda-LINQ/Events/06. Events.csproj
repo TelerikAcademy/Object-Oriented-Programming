@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangedEventHandler.cs" />
+    <Compile Include="EventListener.cs" />
     <Compile Include="Events.cs" />
+    <Compile Include="ListWithChangedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

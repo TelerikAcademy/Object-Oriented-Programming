@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Annonymous-Types", "Annonymous-Types\02. Annonymous-Types.csproj", "{23D1FD3E-D04F-46ED-B15E-23CE9402AC13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Extension-Methods", "Extension-Methods\01. Extension-Methods.csproj", "{BFC06E82-3F35-484D-A123-80C3BD7FEB24}"
@@ -15,11 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MulticastDelegates", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. LINQ-Extenstion-Methods", "LINQ-Extenstion-Methods\08. LINQ-Extenstion-Methods.csproj", "{2BF598F6-5147-4410-873F-1B5EAF160538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Action-And-Func", "Action-And-Func\06. Action-And-Func.csproj", "{D280C67C-008B-4AED-8CA3-9B573101EDE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Action-And-Func", "Action-And-Func\05. Action-And-Func.csproj", "{D280C67C-008B-4AED-8CA3-9B573101EDE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. DynamicType", "DynamicType\09. DynamicType.csproj", "{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Events", "Events\05. Events.csproj", "{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Events", "Events\06. Events.csproj", "{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
