@@ -1,18 +1,15 @@
-﻿namespace LINQ_Extenstion_Methods
+﻿using System.Collections.Generic;
+
+public class Student
 {
-    using System.Collections.Generic;
+    public int Id { get; set; }
 
-    public class Student
+    public string Name { get; set; }
+
+    public List<Course> Courses { get; set; }
+
+    public override string ToString()
     {
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
-        public List<Course> Courses { get; set; }
-
-        public override string ToString()
-        {
-            return this.Id + "; Name: " + this.Name + "; Courses: " + this.Courses.Count;
-        }
+        return this.Id + "; Name: " + this.Name + "; Courses: " + this.Courses.Count;
     }
 }

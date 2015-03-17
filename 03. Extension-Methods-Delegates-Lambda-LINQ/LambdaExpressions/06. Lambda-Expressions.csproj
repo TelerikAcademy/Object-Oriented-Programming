@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LambdaExpressions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Pet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

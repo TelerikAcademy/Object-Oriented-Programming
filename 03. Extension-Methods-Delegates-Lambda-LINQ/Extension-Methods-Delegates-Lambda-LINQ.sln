@@ -7,9 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Annonymous-Types", "Ann
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Extension-Methods", "Extension-Methods\01. Extension-Methods.csproj", "{BFC06E82-3F35-484D-A123-80C3BD7FEB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. LINQ-Queries", "LINQ-Queries\10. LINQ-Queries.csproj", "{11E731DD-8E40-4470-80E5-BD55D61C9B5F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Lambda-Expressions", "LambdaExpressions\07. Lambda-Expressions.csproj", "{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Lambda-Expressions", "LambdaExpressions\06. Lambda-Expressions.csproj", "{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Delegates-Example", "Delegates-Example\03. Delegates-Example.csproj", "{54658146-C592-417C-BD74-8EA697779E30}"
 EndProject
@@ -17,11 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MulticastDelegates", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. LINQ-Extenstion-Methods", "LINQ-Extenstion-Methods\08. LINQ-Extenstion-Methods.csproj", "{2BF598F6-5147-4410-873F-1B5EAF160538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Action-And-Func", "Action-And-Func\05. Action-And-Func.csproj", "{D280C67C-008B-4AED-8CA3-9B573101EDE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Action-And-Func", "Action-And-Func\07. Action-And-Func.csproj", "{D280C67C-008B-4AED-8CA3-9B573101EDE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. DynamicType", "DynamicType\09. DynamicType.csproj", "{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Events", "Events\06. Events.csproj", "{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Events", "Events\05. Events.csproj", "{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,16 +51,6 @@ Global
 		{BFC06E82-3F35-484D-A123-80C3BD7FEB24}.Release|Mixed Platforms.Build.0 = Release|x86
 		{BFC06E82-3F35-484D-A123-80C3BD7FEB24}.Release|x86.ActiveCfg = Release|x86
 		{BFC06E82-3F35-484D-A123-80C3BD7FEB24}.Release|x86.Build.0 = Release|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Debug|x86.ActiveCfg = Debug|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Debug|x86.Build.0 = Debug|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Release|Any CPU.ActiveCfg = Release|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Release|Mixed Platforms.Build.0 = Release|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Release|x86.ActiveCfg = Release|x86
-		{11E731DD-8E40-4470-80E5-BD55D61C9B5F}.Release|x86.Build.0 = Release|x86
 		{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}.Debug|Mixed Platforms.Build.0 = Debug|x86
