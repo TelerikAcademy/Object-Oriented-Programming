@@ -1,23 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Annonymous-Types", "Annonymous-Types\2. Annonymous-Types.csproj", "{23D1FD3E-D04F-46ED-B15E-23CE9402AC13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Annonymous-Types", "Annonymous-Types\02. Annonymous-Types.csproj", "{23D1FD3E-D04F-46ED-B15E-23CE9402AC13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Extension-Methods", "Extension-Methods\1. Extension-Methods.csproj", "{BFC06E82-3F35-484D-A123-80C3BD7FEB24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Extension-Methods", "Extension-Methods\01. Extension-Methods.csproj", "{BFC06E82-3F35-484D-A123-80C3BD7FEB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. LINQ-Queries", "LINQ-Queries\7. LINQ-Queries.csproj", "{11E731DD-8E40-4470-80E5-BD55D61C9B5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. LINQ-Queries", "LINQ-Queries\10. LINQ-Queries.csproj", "{11E731DD-8E40-4470-80E5-BD55D61C9B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Lambda-Expressions", "LambdaExpressions\5. Lambda-Expressions.csproj", "{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Lambda-Expressions", "LambdaExpressions\07. Lambda-Expressions.csproj", "{5E5700A4-D30E-4A47-83A6-5CED8D0730F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Delegates-Example", "Delegates-Example\3. Delegates-Example.csproj", "{54658146-C592-417C-BD74-8EA697779E30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Delegates-Example", "Delegates-Example\03. Delegates-Example.csproj", "{54658146-C592-417C-BD74-8EA697779E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. MulticastDelegates", "MulticastDelegates\4. MulticastDelegates.csproj", "{7A3BB785-12A4-44BA-856E-5AB0A03F6228}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MulticastDelegates", "MulticastDelegates\04. MulticastDelegates.csproj", "{7A3BB785-12A4-44BA-856E-5AB0A03F6228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. LINQ-Extenstion-Methods", "LINQ-Extenstion-Methods\8. LINQ-Extenstion-Methods.csproj", "{2BF598F6-5147-4410-873F-1B5EAF160538}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. LINQ-Extenstion-Methods", "LINQ-Extenstion-Methods\08. LINQ-Extenstion-Methods.csproj", "{2BF598F6-5147-4410-873F-1B5EAF160538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Action-And-Func", "Action-And-Func\6. Action-And-Func.csproj", "{D280C67C-008B-4AED-8CA3-9B573101EDE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Action-And-Func", "Action-And-Func\06. Action-And-Func.csproj", "{D280C67C-008B-4AED-8CA3-9B573101EDE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. DynamicType", "DynamicType\9. DynamicType.csproj", "{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. DynamicType", "DynamicType\09. DynamicType.csproj", "{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Events", "Events\05. Events.csproj", "{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,16 @@ Global
 		{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E0FE63A4-D431-4D21-9D31-27E6C619CBAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B904A8B6-34B7-4AAD-9331-D56711E7BCFB}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

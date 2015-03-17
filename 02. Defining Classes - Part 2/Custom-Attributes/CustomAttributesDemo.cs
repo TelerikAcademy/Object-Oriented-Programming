@@ -14,10 +14,10 @@ public class AuthorAttribute : System.Attribute
 	}
 }
 
-[Author("Svetlin Nakov")]
 [Author("Nikolay Kostov")]
 [Author("Doncho Minkov")]
-[Author("George Georgiev")]
+[Author("Ivaylo Kenov")]
+[Author("Evlogi Hristov")]
 class CustomAttributesDemo
 {
     static void Main(string[] args)
