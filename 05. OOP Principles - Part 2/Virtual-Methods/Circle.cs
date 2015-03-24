@@ -1,12 +1,12 @@
 ﻿using System;
 
-class Circle : Figure
+internal class Circle : Figure
 {
-	public override void Draw()
-	{
-		Console.WriteLine("I am a circle:");
-		Console.WriteLine(" --- ");
-		Console.WriteLine("|   |");
-		Console.WriteLine(" --- ");
-	}
+    public override void Draw()
+    {
+        Console.WriteLine("I am a circle:");
+        Console.WriteLine(" --- ");
+        Console.WriteLine("|   |");
+        Console.WriteLine(" --- ");
+    }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-public abstract class Figure
+﻿public abstract class Figure
 {
     public abstract double CalcSurface();
 }

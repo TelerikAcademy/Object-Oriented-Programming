@@ -1,10 +1,10 @@
 ﻿using System;
 
-class Line : Figure
+internal class Line : Figure
 {
-	public override void Draw()
-	{
-		Console.WriteLine("I am a line:");
-		Console.WriteLine("-----");
-	}
+    public override void Draw()
+    {
+        Console.WriteLine("I am a line:");
+        Console.WriteLine("-----");
+    }
 }
