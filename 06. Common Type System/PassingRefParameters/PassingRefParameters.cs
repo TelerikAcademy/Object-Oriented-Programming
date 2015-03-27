@@ -44,7 +44,7 @@ namespace PassingRefParameters
         static void Main(string[] args)
         {
             Console.WriteLine("Test passing class (reference type) by reference:");
-            Student s = new Student("Nakov");
+            Student s = new Student("Telerik Academy");
             Console.WriteLine(s.name);
             IncorrectModifyStudent(s);
             Console.WriteLine(s.name);
