@@ -1,41 +1,46 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Object-Oriented Programming Fundamental Principles – Part 2
 ## Polymorphism, Class Hierarchies, Exceptions, Strong Cohesion and Loose Coupling
-<img class="slide-image" src="\imgs\pic00.png" style="top:49.29%; left:74.86%; width:18.36%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:3.99%; left:82.24%; width:21.55%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic02.png" style="top:4.34%; left:59.88%; width:16.47%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:49.29%; left:74.86%; width:18.36%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:3.99%; left:82.24%; width:21.55%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:4.34%; left:59.88%; width:16.47%; z-index:-1" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# OOP</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Contents
 - Polymorphism
 - Class Hierarchies: Real World _Example_
 - Exception Handling and Exception Classes
 - Cohesion and Coupling
-<img class="slide-image" src="\imgs\pic03.png" style="top:46.76%; left:61.06%; width:37.56%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic04.png" style="top:46.52%; left:11.61%; width:38.43%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:46.76%; left:61.06%; width:37.56%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:46.52%; left:11.61%; width:38.43%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Polymorphism
-<img class="slide-image" src="\imgs\pic05.png" style="top:35%; left:6.05%; width:43.67%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic06.png" style="top:5.29%; left:60.82%; width:41.62%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic07.png" style="top:48.38%; left:76.72%; width:22.92%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:35%; left:6.05%; width:43.67%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:5.29%; left:60.82%; width:41.62%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:48.38%; left:76.72%; width:22.92%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Polymorphism
 - **Polymorphism** = ability to **take more than oneform**(objects have more than one type)
   - A class can be used through its parent interface
@@ -45,7 +50,7 @@
     - Declared as **abstract** or **virtual**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Polymorphism -->
 - Why handle an object of given type as object of its base type?
   - To invoke **abstract operations**
@@ -55,7 +60,7 @@
   - To declare a more generic field which will be initialized and "specialized" later
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size:40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:40px;' } -->
 # Virtual Methods
 - **Virtual method** is
   - Defined in a base class and can be **changed** (overridden) in the descendant classes
@@ -74,13 +79,15 @@ public override void Draw() { … }
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Virtual Methods
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic08.png" style="top:4.41%; left:18.71%; width:70.52%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:4.41%; left:18.71%; width:70.52%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # More about Virtual Methods
 - **Abstract methods**are purely virtual
   - If a method is **abstract** &rarr; it is **virtual** as well
@@ -95,7 +102,7 @@ public new double CalculateSurface() { return … }
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # The override Modifier
 - Using **override** we can modify a method or property
   - An override method provides a **replacement implementation**of an inherited member
@@ -103,7 +110,7 @@ public new double CalculateSurface() { return … }
 - The overridden base method must be **virtual**, **abstract**, or **override**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Polymorphism – How it Works?
 - **Polymorphism** ensures that the appropriate method of the subclass is called through its base class' interface
 - Polymorphism is implemented using a technique called **late method binding**
@@ -112,12 +119,14 @@ public new double CalculateSurface() { return … }
 - _Note_: Late binding is a bit slower than normal (early) binding
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Polymorphism – _Example_
 
-<img class="slide-image" src="\imgs\polymorphism.png" style="top:15%; left:18.71%; width:70.52%; z-index:-1" />
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/polymorphism.png" style="top:15%; left:18.71%; width:70.52%; z-index:-1" /> -->
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Polymorphism – _Example_
 ```cs
 public abstract class Figure {
@@ -138,20 +147,24 @@ int surface = f2.CalcSurface();
 ```
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Class Hierarchies:<br /> Real World _Example_
-<img class="slide-image" src="\imgs\pic10.png" style="top:37.91%; left:7.49%; width:45.07%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic11.png" style="top:44.08%; left:58.95%; width:44.08%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:37.91%; left:7.49%; width:45.07%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:44.08%; left:58.95%; width:44.08%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Real World _Example_: Calculator
 - Creating an application like the Windows Calculator
   - Typical scenario for applying the object-oriented approach
-<img class="slide-image" src="\imgs\pic12.png" style="top:37.02%; left:30.82%; width:47.71%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:37.02%; left:30.82%; width:47.71%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Real World _Example_: Calculator -->
 - The calculator consists of controls:
   - Buttons, panels, text boxes, menus, check boxes, radio buttons, etc.
@@ -161,7 +174,7 @@ int surface = f2.CalcSurface();
   - Common properties: location, size, text, face color, font, background color, etc.
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Real World _Example_: Calculator -->
 - Some controls could contain other (nested) controls inside (e. g. panels and toolbars)
   - We should have class **Container** that extends **Control** holding a collection of child controls
@@ -172,7 +185,7 @@ int surface = f2.CalcSurface();
   - Invokes **Paint()** for all child controls inside it
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Real World _Example_: Calculator -->
 - How a **Container** paints itself?
   - Invokes **Paint()** for all controls inside it
@@ -182,20 +195,22 @@ int surface = f2.CalcSurface();
   - Can be selected
 - We can define class **AbstractButton** and all buttons can derive from it
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Calculator Classes -->
-<img class="slide-image" src="\imgs\calc-classes.png" style="top:15%; left:10.71%; width:85%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/calc-classes.png" style="top:15%; left:10.71%; width:85%; z-index:-1" /> -->
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Exception Classes
 ## User-Defined Exception Classes
-<img class="slide-image" src="\imgs\pic13.png" style="top:52%; left:32%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:52%; left:32%; width:35%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Exception Handling in OOP
 - In OOP **exception handling** is the main paradigm for error handling
   - **Exceptions** are special classes that hold information about an error or unusual situation
@@ -209,13 +224,15 @@ throw new InvalidCalculationException(
 - Exceptions are handled though the **try-catch-finally** and **using(…)** constructs
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Exception Hierarchy
 - Exceptions in .NET Framework are organized in a object-oriented **class hierarchy**
-<img class="slide-image" src="\imgs\pic14.png" style="top:27.84%; left:6.49%; width:93.50%; z-index:-1; background-color: #DADADA;" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:27.84%; left:6.49%; width:93.50%; z-index:-1; background-color: #DADADA;" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Defining an Exception Class
 - To define an exception class, inherit from **ApplicationException** and define constructors
 
@@ -235,18 +252,22 @@ public class InvalidCalculationException
 }
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Exception Classes
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic15.png" style="top:52%; left:28%; width:45%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:52%; left:28%; width:45%; z-index:-1" /> -->
+
+
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Cohesion and Coupling
-<img class="slide-image" src="\imgs\pic16.png" style="top:42%; left:20.88%; width:62.55%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:42%; left:20.88%; width:62.55%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Cohesion
 - **Cohesion** describes
   - How closely the routines in a class or the code in a routine support a **central purpose**
@@ -256,7 +277,7 @@ public class InvalidCalculationException
 - Cohesion is a powerful tool for managing complexity
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Good and Bad Cohesion
 - **Good cohesion**: HDD, CR-ROM, remote control
 <br />
@@ -265,15 +286,17 @@ public class InvalidCalculationException
 <br />
 <br />
 - **Bad cohesion**: spaghetti code, single-board computer
-<img class="slide-image" src="\imgs\pic17.png" style="top:65.66%; left:7.49%; width:20.79%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic18.png" style="top:60.02%; left:35.56%; width:27.48%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic19.png" style="top:19.39%; left:10.98%; width:20.28%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic20.png" style="top:15.87%; left:40.18%; width:27.38%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic21.png" style="top:14.99%; left:75.79%; width:28.21%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic22.png" style="top:60.02%; left:72.05%; width:29.97%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:65.66%; left:7.49%; width:20.79%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:60.02%; left:35.56%; width:27.48%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:19.39%; left:10.98%; width:20.28%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:15.87%; left:40.18%; width:27.38%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:14.99%; left:75.79%; width:28.21%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:60.02%; left:72.05%; width:29.97%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Strong Cohesion
 - **Strong cohesion**(good cohesion) example
   - Class **Math** that has methods:
@@ -292,10 +315,12 @@ double sideC =
 double sidesSqrtSum = Math.Sqrt(sideA) + Math.Sqrt(sideB) + Math.Sqrt(sideC);
 ```
 
-<img class="slide-image" src="\imgs\pic23.png" style="top:18.51%; left:73.52%; width:28.59%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:18.51%; left:73.52%; width:28.59%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Weak Cohesion
 - **Weak cohesion**(bad cohesion) example
   -  Class **Magic** that has these methods:
@@ -318,7 +343,7 @@ MagicClass.OpenDBConnection();
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Coupling
 - **Coupling** describes how tightly a class or routine is related to other classes or routines
 - Coupling must be kept **loose**
@@ -328,7 +353,7 @@ MagicClass.OpenDBConnection();
   - One module must be easily used by other modules
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Loose and Tight Coupling
 - Loose Coupling:
   - Easily replace old HDD
@@ -339,11 +364,13 @@ MagicClass.OpenDBConnection();
 - Tight Coupling:
   - Where is the video adapter?
   - Can you change the video controller?
-<img class="slide-image" src="\imgs\pic24.png" style="top:13.85%; left:75%; width:25%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic25.png" style="top:44.08%; left:75%; width:25%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:13.85%; left:75%; width:25%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:44.08%; left:75%; width:25%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Loose Coupling – _Example_
 
 ```cs
@@ -369,7 +396,7 @@ class Program
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Tight Coupling – _Example_
 
 ```cs
@@ -398,7 +425,7 @@ class MainClass
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Spaghetti Code
 - Combination of bad cohesion and tight coupling:
 
@@ -421,7 +448,7 @@ class Printer
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Summary
 - OOP fundamental principals are: **inheritance**, **encapsulation**, **abstraction**, **polymorphism**
   - Inheritance allows inheriting members from another class
@@ -431,23 +458,25 @@ class Printer
 - **Strong cohesion**and **loose coupling** avoid spaghetti code
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
 # Object-Oriented Programming Fundamental Principles – Part 2
 ## Questions?
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
+    - [C# OOP Course](http://academy.telerik.com/student-courses/programming/object-oriented-programming/about)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
     - [forums.academy.telerik.com](forums.academy.telerik.com)
-<img class="slide-image" src="\imgs\pic26.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic27.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic28.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic29.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" />
+
+
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic26.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic27.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic28.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic29.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->

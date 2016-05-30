@@ -1,46 +1,52 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Classes – Part 1
 ## Classes, Fields, Constructors, Methods, Properties
-<img class="slide-image" src="\imgs\pic00.png" style="top:-0.12%; left:82.46%; width:28.21%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:53.77%; left:64.56%; width:37.78%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic02.png" style="top:3.83%; left:18.10%; width:22.74%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic03.png" style="top:47.93%; left:92.63%; width:17.08%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic04.png" style="top:1.97%; left:50.44%; width:22.96%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:-0.12%; left:82.46%; width:28.21%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:53.77%; left:64.56%; width:37.78%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:3.83%; left:18.10%; width:22.74%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:47.93%; left:92.63%; width:17.08%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:1.97%; left:50.44%; width:22.96%; z-index:-1" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# OOP</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- Defining Simple Classes
-- Fields
-- Access Modifiers
-- Using Classes and Objects
-- Constructors
-- Methods
-- Properties
-- Enumerations (Enums)
-- Keeping the Object State
-<img class="slide-image" src="\imgs\pic05.png" style="top:52%; left:70.17%; width:29.09%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic06.png" style="top:14.10%; left:68.30%; width:33.23%; z-index:-1" />
+- [Defining Simple Classes](#classes)
+- [Fields](#fields)
+- [Access Modifiers](#modifiers)
+- [Using Classes and Objects](#using)
+- [Constructors](#constructors)
+- [Methods](#methods)
+- [Properties](#property)
+- [Enumerations (Enums)](#enumerations)
+- [Keeping the Object State](#objectstate)
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:52%; left:70.17%; width:29.09%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:14.10%; left:68.30%; width:33.23%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Simple Classes
-<img class="slide-image" src="\imgs\pic07.png" style="top:42%; left:35%; width:30%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:42%; left:35%; width:30%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Classes in OOP
 - **Classes** model real-world objects and define
   - **Attributes** (state, properties, fields)
@@ -51,7 +57,7 @@
 - Operations implement object behavior
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Classes in C#
 - Classes in C# can have **members**:
   - Fields, constants, methods, properties, indexers, events, operators, constructors, destructors, …
@@ -62,7 +68,7 @@
   - **static** (common) or **specific** for a given object
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Simple Class Definition
 
 ```cs
@@ -90,7 +96,7 @@ public class Cat : Animal {
 <div class="fragment balloon" style="top:15%; left:44%; width:40.55%">Inherited (base) class</div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Simple Class Definition -->
 
 ```cs
@@ -109,10 +115,10 @@ public class Cat : Animal {
 
 <div class="fragment balloon" style="top:41%; left:41%; width:19.28%">Method</div>
 <div class="fragment balloon" style="top:61.27%; left:12.34%; width:24.15%">End of class definition</div>
-<img class="slide-image" src="\imgs\pic08.png" style="top:56.42%; left:66.43%; width:37.24%; z-index:0" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:56.42%; left:66.43%; width:37.24%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Class Definition and Members
 - **Class definition** consists of:
   - Class declaration
@@ -122,19 +128,23 @@ public class Cat : Animal {
   - Properties (static or not)
   - Methods (static or not)
   - Events, inner types, etc.
-<img class="slide-image" src="\imgs\pic09.png" style="top:43.20%; left:71.04%; width:33.30%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:43.20%; left:71.04%; width:33.30%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Fields
 ## Defining and Using Data Fields
-<img class="slide-image" src="\imgs\pic10.png" style="top:52%; left:18%; width:65%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:52%; left:18%; width:65%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Fields
 - Fields are **data members**defined inside a class
   - Fields hold the internal object state
@@ -154,7 +164,7 @@ class Dog
 <div class="fragment balloon" style="top:51.73%; left:60.83%; width:26.45%">Field declarations</div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Constant Fields
 - **Constant fields**are of two types:
   - Compile-time constants – **const**
@@ -175,7 +185,7 @@ class Math
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Constant Fields – _Example_
 
 ```cs
@@ -203,14 +213,16 @@ public class Constants
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Access Modifiers
 ## Public, Private, Protected, Internal
-<img class="slide-image" src="\imgs\pic11.png" style="top:40%; left:76.72%; width:28.32%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic12.png" style="top:52%; left:10.29%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:40%; left:76.72%; width:28.32%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:52%; left:10.29%; width:35%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Access Modifiers
 - Class members can have access modifiers
   - Restrict the access to them from outer sources
@@ -222,16 +234,18 @@ public class Constants
   - **internal** (default) – accessible from the current assembly, i.e. the current VS project
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Access Modifiers Explained
-<img class="slide-image" src="\imgs\pic13.png" style="top:14%; left:75.17%; width:27.33%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic14.png" style="top:14%; left:41%; width:26.45%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic15.png" style="top:37.94%; left:75%; width:29.09%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic16.png" style="top:38.35%; left:5.91%; width:27.33%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic17.png" style="top:13.99%; left:5.91%; width:27.33%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:14%; left:75.17%; width:27.33%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:14%; left:41%; width:26.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:37.94%; left:75%; width:29.09%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:38.35%; left:5.91%; width:27.33%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:13.99%; left:5.91%; width:27.33%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # The 'this' Keyword
 - The keyword **this** inside a method points to the current instance of the class
 - _Example_:
@@ -254,13 +268,15 @@ class Dog
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Simple Classes
 ## _Example_
-<img class="slide-image" src="\imgs\pic18.png" style="top:52%; left:33%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:52%; left:33%; width:35%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Task: Define a Class "Dog"
 - Our task is to define a simple class that represents information about a **dog**
   - The dog should have **name** and **breed**
@@ -269,7 +285,7 @@ class Dog
   - The dog should be able to **bark**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Class Dog – _Example_
 
 ```cs
@@ -290,10 +306,12 @@ public class Dog{
 ```
 _(the example continues)_
 
-<img class="slide-image" src="\imgs\pic19.png" style="top:15.48%; left:82.34%; width:18.95%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:15.48%; left:82.34%; width:18.95%; z-index:0" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Defining Class Dog – _Example_ -->
 
 ```cs
@@ -317,18 +335,22 @@ _(the example continues)_
 }
 ```
 
-<img class="slide-image" src="\imgs\pic20.png" style="top:14.99%; left:86.08%; width:15.80%; z-index:0" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:14.99%; left:86.08%; width:15.80%; z-index:0" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Using Classes and Objects
-<img class="slide-image" src="\imgs\pic21.png" style="top:42%; left:29.89%; width:49.41%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:42%; left:29.89%; width:49.41%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # How to Use Classes <br />(Non-Static)?
 - Create an **instance**
   - Initialize its properties / fields
@@ -338,11 +360,13 @@ _(the example continues)_
   - Handle events
 - Release the occupied resources
   - Performed automatically in most cases
-<img class="slide-image" src="\imgs\pic22.png" style="top:40.55%; left:79.53%; width:25.70%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic23.png" style="top:14.99%; left:77.66%; width:26.45%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:40.55%; left:79.53%; width:25.70%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:14.99%; left:77.66%; width:26.45%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Task: Dog Meeting
 - Our task is as follows:
   - Create 3 dogs
@@ -353,7 +377,7 @@ _(the example continues)_
     - Use the **Dog** class from the previous example!
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Dog Meeting – _Example_
 
 ```cs
@@ -376,7 +400,7 @@ static void Main()
 _(the example continues)_
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Dog Meeting – _Example_ -->
 
 ```cs
@@ -397,21 +421,25 @@ _(the example continues)_
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Dog Meeting
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic24.png" style="top:52%; left:32.25%; width:35%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:52%; left:32.25%; width:35%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Constructors
-<img class="slide-image" src="\imgs\pic25.png" style="top:42%; left:28%; width:44.80%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:42%; left:28%; width:44.80%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # What is Constructor?
 - **Constructors** are special methods
   - Invoked at the time of **creating anew instance**of an object
@@ -422,7 +450,7 @@ _(the example continues)_
   - Can be **private**, **protected**, **internal**, **public**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Constructors
 
 ```cs
@@ -443,10 +471,12 @@ public class Point
 ```
 
 - Class **Point** with parameterless constructor:
-<img class="slide-image" src="\imgs\pic26.png" style="top:20.28%; left:85.14%; width:18.76%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:20.28%; left:85.14%; width:18.76%; z-index:0" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Defining Constructors -->
 
 ```cs
@@ -471,10 +501,10 @@ public class Person
 ```
 
 <div class="fragment balloon" style="top:59.88%; left:55.54%; width:39.67%">As rule constructors should initialize all own class fields.</div>
-<img class="slide-image" src="\imgs\pic27.png" style="top:14.70%; left:75.79%; width:24.09%; z-index:0" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:14.70%; left:75.79%; width:24.09%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Constructors and Initialization
 - Pay attention when using inline initialization!
 
@@ -498,7 +528,7 @@ public class AlarmClock
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Chaining Constructors Calls
 - Reusing constructors (chaining)
 
@@ -522,26 +552,32 @@ public class Point
 }
 ```
 
-<img class="slide-image" src="\imgs\pic28.png" style="top:50.25%; left:88.89%; width:14.99%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:50.25%; left:88.89%; width:14.99%; z-index:0" /> -->
+
+
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Constructors
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic29.png" style="top:52%; left:36.44%; width:30%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:52%; left:36.44%; width:30%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Methods
 ## Defining and Invoking Methods
-<img class="slide-image" src="\imgs\pic30.png" style="top:52%; left:59.88%; width:31.74%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic31.png" style="top:52%; left:19.65%; width:29.09%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:52%; left:59.88%; width:31.74%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:52%; left:19.65%; width:29.09%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Methods
 - **Methods** are class members that execute some action (some code, some algorithm)
   - Could be **static** / per instance
@@ -563,7 +599,7 @@ public class Point
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Using Methods
 - Invoking instance methods is done through the object (class instance):
 
@@ -581,18 +617,20 @@ class TestMethods
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Methods
 ## [Demo]()
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Properties
 ## Defining and Using Properties
-<img class="slide-image" src="\imgs\pic34.png" style="top:52%; left:28%; width:42.57%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:52%; left:28%; width:42.57%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # The Role of Properties
 - **Properties** expose object's data to the world
   - Control how the data is manipulated
@@ -605,7 +643,7 @@ class TestMethods
 - Simplify the writing of code
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Defining Properties
 - Properties work as a pair of methods
   - **Getter** and **setter**
@@ -617,7 +655,7 @@ class TestMethods
   - Can contain code processing data in specific way, e.g. apply validation
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Defining Properties – _Example_
 
 ```cs
@@ -642,10 +680,12 @@ public class Point
 }
 ```
 
-<img class="slide-image" src="\imgs\pic35.png" style="top:12.34%; left:74.68%; width:28.98%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:12.34%; left:74.68%; width:28.98%; z-index:0" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Dynamic Properties
 - Properties are not obligatory bound to a class field – can be calculated dynamically:
 
@@ -669,7 +709,7 @@ public class Rectangle
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Automatic Properties
 - Properties could be defined without an underlying field behind them
   - It is automatically created by the compiler
@@ -691,21 +731,25 @@ UserProfile profile = new UserProfile() {
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Properties
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic36.png" style="top:52%; left:32%; width:36.87%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:52%; left:32%; width:36.87%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Enumerations
-<img class="slide-image" src="\imgs\pic37.png" style="top:42%; left:10.36%; width:83.92%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:42%; left:10.36%; width:83.92%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Enumerations in C#
 - **Enumerations** are types that hold a value from a fixed set of named constants
   - Declared by **enum** keyword in C#
@@ -727,7 +771,7 @@ class Enum_Example_
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Enumerations – _Example_
 
 ```cs
@@ -752,7 +796,7 @@ public class Coffee
 _(the example continues)_
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Enumerations – _Example_ -->
 
 ```cs
@@ -776,23 +820,27 @@ public class CoffeeMachine
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Enumerations
 ## Demo
-<img class="slide-image" src="\imgs\pic38.png" style="top:52%; left:33%; width:35%; z-index:-1" />
+
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:52%; left:33%; width:35%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Keeping the Object State Correct
-<img class="slide-image" src="\imgs\pic39.png" style="top:52%; left:55.79%; width:30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic40.png" style="top:52%; left:21.28%; width:28.21%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic41.png" style="top:52%; left:13.10%; width:25.93%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic39.png" style="top:52%; left:55.79%; width:30%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic40.png" style="top:52%; left:21.28%; width:28.21%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic41.png" style="top:52%; left:13.10%; width:25.93%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Keep the Object State Correct
 - Constructors and properties can **keep the object's state correct**
   - This is known as **encapsulation** in OOP
@@ -802,7 +850,7 @@ public class CoffeeMachine
   - Invalid values should cause an exception
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Keep the Object State – _Example_
 
 ```cs
@@ -830,15 +878,17 @@ public class Person
 <div class="fragment balloon" style="top:66.43%; left:58.18%; width:37.91%">Incorrect name cannot be assigned</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Keeping the Object State Correct
 ## Demo
-<img class="slide-image" src="\imgs\pic42.png" style="top:52%; left:13.10%; width:28.21%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic43.png" style="top:52%; left:4.92%; width:25.93%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic44.png" style="top:62%; left:47.60%; width:50.36%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic42.png" style="top:52%; left:13.10%; width:28.21%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic43.png" style="top:52%; left:4.92%; width:25.93%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic44.png" style="top:62%; left:47.60%; width:50.36%; z-index:-1" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Summary
 - Classes define specific structure for objects
   - Objects are particular instances of a class
@@ -849,23 +899,25 @@ public class Person
 - Properties expose the class data in safe, controlled way
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
 # Defining Classes – Part 1
 ## Questions?
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
+    - [C# OOP Course](http://academy.telerik.com/student-courses/programming/object-oriented-programming/about)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
     - [forums.academy.telerik.com](forums.academy.telerik.com)
-<img class="slide-image" src="\imgs\pic45.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic46.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic47.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic48.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" />
+
+
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic45.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic46.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic47.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic48.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->

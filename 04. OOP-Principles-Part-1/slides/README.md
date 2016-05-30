@@ -1,23 +1,24 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Object-Oriented Programming Fundamental Principles – Part 1
 ## Inheritance, Abstraction, Encapsulation
-<img class="slide-image" src="\imgs\pic00.png" style="top:53.77%; left:64.56%; width:37.78%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:49.26%; left:83.81%; width:17.40%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic03.png" style="top:51.38%; left:65.50%; width:17.63%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic04.png" style="top:59.77%; left:3.74%; width:47.33%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic05.png" style="top:48.99%; left:91.69%; width:17.08%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:53.77%; left:64.56%; width:37.78%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:49.26%; left:83.81%; width:17.40%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:51.38%; left:65.50%; width:17.63%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:59.77%; left:3.74%; width:47.33%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:48.99%; left:91.69%; width:17.08%; z-index:-1" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# OOP</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
 - Fundamental Principles of OOP
 - Inheritance
@@ -27,20 +28,22 @@
   - Abstract Classes
   - Interfaces
 - Encapsulation
-<img class="slide-image" src="\imgs\pic06.png" style="top:43.20%; left:56.14%; width:45.51%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic07.png" style="top:12.34%; left:77.66%; width:24.21%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:43.20%; left:56.14%; width:45.51%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:12.34%; left:77.66%; width:24.21%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Fundamental Principles of OOP
-<img class="slide-image" src="\imgs\pic08.png" style="top:42%; left:53.88%; width:45.32%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic09.png" style="top:42%; left:8.04%; width:45.17%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:42%; left:53.88%; width:45.32%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:42%; left:8.04%; width:45.17%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Fundamental Principles of OOP
 - **Inheritance**
   - Inherit members from parent class
@@ -51,11 +54,11 @@
 - **Polymorphism**
     - Access a class through its parent interface
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Classes and Interfaces
 - **Classes** define attributes and behavior
   - Fields, properties, methods, etc.
@@ -73,7 +76,7 @@ public class Labyrinth { public int Size { get; set; } }
 public interface IFigure { void Draw(); }
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance
 - **Inheritance**allows**child** classes to **inherit** the characteristics of an existing **parent** (**base**) class
   - Attributes (fields and properties)
@@ -84,15 +87,16 @@ public interface IFigure { void Draw(); }
 - A class can **implement** an interface by providing implementation for all its methods
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Types of Inheritance
 - Inheritance terminology
 
-<img class="slide-image" src="\imgs\inheritance-type.png" style="top:20%; left:8.04%; width:75%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/inheritance-type.png" style="top:20%; left:8.04%; width:75%; z-index:-1" /> -->
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Inheritance – Benefits
 - Inheritance has a lot of benefits
   - Extensibility
@@ -103,10 +107,11 @@ public interface IFigure { void Draw(); }
   - E.g. dog **is-a** animal (dogs are kind of animals)
 - Don't use it to build **has-a** relationship
   - E.g. dog **has-a** name (dog is not kind of name)
-<img class="slide-image" src="\imgs\pic12.png" style="top:18.38%; left:76.72%; width:20.28%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:18.38%; left:76.72%; width:20.28%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance
 - **Inheritance** implicitly gains **all members**from another class
   - All fields, methods, properties, events, …
@@ -115,21 +120,23 @@ public interface IFigure { void Draw(); }
 - The class that gains new functionality is called **derived** (child) class
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance – _Example_
 
-<img class="slide-image" src="\imgs\inheritance-example.png" style="top:20%; left:8.04%; width:75%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/inheritance-example.png" style="top:20%; left:8.04%; width:75%; z-index:-1" /> -->
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Class Hierarchies
 - **Inheritance** leads to a **hierarchiesof classes** and / or interfaces in an application:
 
-<img class="slide-image" src="\imgs\hierarchies.png" style="top:30%; left:8.04%; width:75%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/hierarchies.png" style="top:30%; left:8.04%; width:75%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance in .NET
 - A class can inherit only one base class
   - E.g. **IOException** derives from **SystemException** and it derives from **Exception**
@@ -140,7 +147,7 @@ public interface IFigure { void Draw(); }
   - E.g. **IList&lt;T&gt;** implements **ICollection&lt;T&gt;** and **IEnumerable&lt;T&gt;**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # How to Define Inheritance?
 - Specify the name of the base class after the name of the derived (with colon)
 
@@ -161,11 +168,12 @@ public Circle (int x, int y) : base(x)
 { … }
 ```
 
-<img class="slide-image" src="\imgs\pic13.png" style="top:23.32%; left:83.27%; width:18.51%; z-index:0" />
-<img class="slide-image" src="\imgs\pic14.png" style="top:59.94%; left:89.28%; width:13.12%; z-index:0" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:23.32%; left:83.27%; width:18.51%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:59.94%; left:89.28%; width:13.12%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Simple Inheritance _Example_
 
 ```cs
@@ -185,10 +193,11 @@ public class Mammal
 }
 ```
 
-<img class="slide-image" src="\imgs\pic15.png" style="top:13.22%; left:74.50%; width:28.54%; z-index:0" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:13.22%; left:74.50%; width:28.54%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Simple Inheritance _Example_ -->
 
 ```cs
@@ -209,17 +218,19 @@ public class Dog : Mammal
 }
 ```
 
-<img class="slide-image" src="\imgs\pic16.png" style="top:11.46%; left:81.40%; width:22.04%; z-index:0" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:11.46%; left:81.40%; width:22.04%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Simple Inheritance
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic17.png" style="top:42.97%; left:63.94%; width:39.38%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic18.png" style="top:52%; left:5.82%; width:44.13%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:42.97%; left:63.94%; width:39.38%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:52%; left:5.82%; width:44.13%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Access Levels
 - Access modifiers in C#
   - **public** – access is not restricted
@@ -229,7 +240,7 @@ public class Dog : Mammal
   - **protected** **internal** – access is limited to the current assembly or types derived from the containing class
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance and Accessibility
 
 ```cs
@@ -255,7 +266,7 @@ class Mammal : Creature
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Inheritance and Accessibility -->
 
 ```cs
@@ -281,13 +292,14 @@ class InheritanceAndAccessibility
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Inheritance and Accessibility
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic19.png" style="top:52%; left:30%; width:40%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance: Important Aspects
 - **Structures** cannot be inherited
 - In C# there is no **multiple** inheritance
@@ -298,7 +310,7 @@ class InheritanceAndAccessibility
   - If C is derived from B, and B is derived from A, then C inherits A as well
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance: Important Features
 - When a derived class extends its base class
   - It can freely add new members
@@ -312,14 +324,15 @@ class InheritanceAndAccessibility
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Abstraction
-<img class="slide-image" src="\imgs\pic20.png" style="top:47.60%; left:12.58%; width:27.43%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic21.png" style="top:26.33%; left:59.30%; width:44.63%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic22.png" style="top:4.57%; left:34.38%; width:19.35%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:47.60%; left:12.58%; width:27.43%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:26.33%; left:59.30%; width:44.63%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:4.57%; left:34.38%; width:19.35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Abstraction
 - **Abstraction** means ignoring irrelevant features, properties, or functions and emphasizing the relevant ones ...
 - ... relevant to the given project
@@ -328,7 +341,7 @@ class InheritanceAndAccessibility
 - "Relevant" to what?
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Abstraction -->
 - Abstraction is something we do every day
   - Looking at an object, we see those things about it that have meaning to us
@@ -338,23 +351,25 @@ class InheritanceAndAccessibility
 - Abstraction highlights the properties of an entity that we need and hides the others
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Abstraction in .NET
 - In .NET object-oriented programming abstraction is achieved in several ways:
   - Abstract classes
   - Interfaces
   - Inheritance
-<img class="slide-image" src="\imgs\pic24.png" style="top:55.22%; left:10.29%; width:27.60%; z-index:-1" />
-<img class="slide-image" src="\imgs\abstraction.png" style="top:35.22%; left:40%; width:40%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:55.22%; left:10.29%; width:27.60%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/abstraction.png" style="top:35.22%; left:40%; width:40%; z-index:-1" /> -->
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Abstraction in .NET – _Example_
-<img class="slide-image" src="\imgs\abstraction-example.png" style="top:10%; left:25%; width:60%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/abstraction-example.png" style="top:10%; left:25%; width:60%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Interfaces
 - An **interface** defines a set of operations (methods) that given object should perform
   - Also called "**contract**" for providing a set of operations
@@ -364,7 +379,7 @@ class InheritanceAndAccessibility
   - Without worrying how it is internally implemented
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Interfaces -->
 - **Interfaces** describe a prototype of group of methods (operations), properties and events
   - Can be implemented by a given class or structure
@@ -375,7 +390,7 @@ class InheritanceAndAccessibility
   - Can not be instantiated
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Interfaces – _Example_
 
 ```cs
@@ -399,7 +414,7 @@ public interface IResizable
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Interfaces – _Example_ -->
 
 ```cs
@@ -422,7 +437,7 @@ public interface IPerson
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Interface Implementation
 - Classes and structures can implement (support) one or several interfaces
 
@@ -441,7 +456,7 @@ class Rectangle : IShape
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Interface Implementation -->
 
 ```cs
@@ -467,12 +482,12 @@ class Rectangle : IShape, IMovable
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Interfaces andImplementation
 ## [Demo]()
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Abstract Classes
 - **Abstract classes**are special classes defined with the keyword **abstract**
   - Mix between class and interface
@@ -482,7 +497,7 @@ class Rectangle : IShape, IMovable
 - Child classes should implement all abstract  methods or be declared as **abstract** too
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Abstract Classes -->
 - **Abstract** **methods** are empty methods without implementation
   - The implementation is **intentionally left**for the descendent classes
@@ -491,7 +506,7 @@ class Rectangle : IShape, IMovable
   - E.g. person, object, item, movable object
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Abstract Class – _Example_
 
 ```cs
@@ -514,7 +529,7 @@ abstract class MovableShape : IShape, IMovable
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Interfaces vs. Abstract Classes
 - C# **interfaces** are like **abstract classes**, but in contrast interfaces:
   - Can not contain methods with implementation
@@ -525,7 +540,7 @@ abstract class MovableShape : IShape, IMovable
   - Can not define fields, constants, inner types and constructors
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Abstract Classes – _Example_
 
 ```cs
@@ -549,7 +564,7 @@ public abstract class Animal : IComparable<Animal>
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Abstract Classes – _Example_ -->
 
 ```cs
@@ -572,21 +587,22 @@ public class Cheetah : Animal
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Abstract Classes
 ## [Demo]()
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Abstract Data Types
 - Abstract Data Types (ADT) are data types defined by a set of operations (interface)
 - _Example_: **IList&lt;T&gt;** in .NET Framework
-<img class="slide-image" src="\imgs\pic28.png" style="top:38.79%; left:10.29%; width:26.45%; z-index:-1" />
-<img class="slide-image" src="\imgs\data-types.png" style="top:38.79%; left:50%; width:35%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:38.79%; left:10.29%; width:26.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/data-types.png" style="top:38.79%; left:50%; width:35%; z-index:-1" /> -->
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Inheritance Hierarchies
 - Using inheritance we can create inheritance hierarchies
   - Easily represented by UML class diagrams
@@ -597,12 +613,13 @@ public class Cheetah : Animal
     - Other arrows mean some kind of associations
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # UML Class Diagrams - Example
-<img class="slide-image" src="\imgs\uml.png" style="top:12.34%; left:30%; width:47.60%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/uml.png" style="top:12.34%; left:30%; width:47.60%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Class Diagrams in Visual Studio
 ## [Demo]()
 
@@ -610,13 +627,14 @@ public class Cheetah : Animal
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Encapsulation
-<img class="slide-image" src="\imgs\pic30.png" style="top:32.62%; left:20.36%; width:40.55%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic31.png" style="top:11.73%; left:70.54%; width:30.04%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:32.62%; left:20.36%; width:40.55%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:11.73%; left:70.54%; width:30.04%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Encapsulation
 - Encapsulation hides the implementation details
 - Class announces some operations (methods) available for its clients – its **public interface**
@@ -625,16 +643,17 @@ public class Cheetah : Animal
 - No interface members should be hidden
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Encapsulation – _Example_
 - Data fields are private
 - Constructors and accessors are defined (getters and setters)
-<img class="slide-image" src="\imgs\encapsulation.png" style="top:35%; left:20%; width:60%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/encapsulation.png" style="top:35%; left:20%; width:60%; z-index:-1" /> -->
 
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Encapsulation in .NET
 - Fields are always declared **private**
   - Accessed through **properties** in read-only or read-write mode
@@ -644,7 +663,7 @@ public class Cheetah : Animal
 - Non-interface methods are declared **private** / **protected**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Encapsulation – Benefits
 - Ensures that structural changes remain local:
   - Changing the class internals does not affect any code outside of the class
@@ -654,27 +673,28 @@ public class Cheetah : Animal
 - Hiding implementation details reduces complexity &rarr; easier maintenance
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Encapsulation
 ## [Demo]()
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:false } -->
 # Object-Oriented Programming Fundamental Principles – Part 1
 ## Questions?
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
+    - [C# OOP Course](http://academy.telerik.com/student-courses/programming/object-oriented-programming/about)
   - Telerik Software Academy
     - [academy.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
     - [forums.academy.telerik.com](forums.academy.telerik.com)
-<img class="slide-image" src="\imgs\pic33.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic34.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic35.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic36.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" />
+
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic33.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic34.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic35.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic36.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->

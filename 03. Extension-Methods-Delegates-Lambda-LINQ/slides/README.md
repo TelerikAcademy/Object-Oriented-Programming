@@ -1,50 +1,54 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Extension Methods, Lambda Expressions and LINQ
 ## Extension Methods, Anonymous Types, Delegates, Lambda Expressions, LINQ, Dynamic
-<img class="slide-image" src="\imgs\pic00.png" style="top:52.89%; left:69.24%; width:33.83%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:48.48%; left:93.98%; width:17.08%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:52.89%; left:69.24%; width:33.83%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:48.48%; left:93.98%; width:17.08%; z-index:-1" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# OOP</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- Extension Methods
-- Anonymous Types
-- Delegates
-- Events
-- Lambda Expressions
-- LINQ Queries
-- Dynamic Type
-<img class="slide-image" src="\imgs\pic02.png" style="top:12.34%; left:58.01%; width:47.02%; z-index:-1" />
+- [Extension Methods](#extension)
+- [Anonymous Types](#anonymous)
+- [Delegates](#delegate)
+- [Events](#event)
+- [Lambda Expressions](#lambdas)
+- [LINQ Queries](#linq)
+- [Dynamic Type](#dynamic)
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:12.34%; left:58.01%; width:47.02%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Extension Methods
-<img class="slide-image" src="\imgs\pic03.png" style="top:42%; left:40.13%; width:30.18%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:42%; left:40.13%; width:30.18%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Extension Methods
 - Once a type is defined and compiled into an assembly its definition is, more or less, final
   - The only way to update, remove or add new members is to recode and recompile the code
 - **Extension methods** allow existing compiled types to gain new functionality
   - Without recompilation
   - Without touching theoriginal assembly
-<img class="slide-image" src="\imgs\pic04.png" style="top:52.01%; left:78%; width:27%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:52.01%; left:78%; width:27%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Defining Extension Methods
 - Extension methods
   - Defined in a static class
@@ -54,7 +58,7 @@
   - Can also be called from **statically** through the defining static class
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Extension Methods – _Examples_
 
 ```cs
@@ -77,7 +81,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Extension Methods – _Examples_ -->
 
 ```cs
@@ -100,21 +104,23 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Extension Methods
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic05.png" style="top:52%; left:22.26%; width:58.40%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:52%; left:22.26%; width:58.40%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Anonymous Types
-<img class="slide-image" src="\imgs\pic06.png" style="top:37%; left:30.41%; width:46.28%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:37%; left:30.41%; width:46.28%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Anonymous Types
 - **Anonymous types**
   - Encapsulate a set of read-only properties and their value into a single object
@@ -128,7 +134,7 @@ var point = new { X = 3, Y = 5 };
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Anonymous Types – _Example_
 
 ```cs
@@ -144,7 +150,7 @@ Console.WriteLine("My car is a {0} {1}.",
   - Using implicit typing (**var** keyword) is mandatory
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Anonymous Types – Properties
 - Anonymous types are reference types directly derived from **System.Object**
 - Have overridden version of **Equals()**, **GetHashCode()**, and **ToString()**
@@ -159,7 +165,7 @@ Console.WriteLine(p.Equals(q)); // true
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Arrays of Anonymous Types
 - You can define and use arrays of anonymous types through the following syntax:
 
@@ -175,22 +181,24 @@ foreach (var item in arr)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Anonymous Types
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic07.png" style="top:52%; left:35%; width:30%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:52%; left:35%; width:30%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Delegates in .NET Framework
-<img class="slide-image" src="\imgs\pic08.png" style="top:52%; left:14.52%; width:76.23%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic09.png" style="top:60%; left:10.29%; width:84.39%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:52%; left:14.52%; width:76.23%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:60%; left:10.29%; width:84.39%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # What are Delegates?
 - **Delegates** are special .NET types that **hold a method reference**
 - Describe the **signature** of given method
@@ -201,7 +209,7 @@ foreach (var item in arr)
   - Delegates are reference types
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # What are Delegates? -->
 - Delegates are roughly similar to function pointers in C and C++
   - Strongly-typed pointer (reference) to a method
@@ -213,7 +221,7 @@ foreach (var item in arr)
 - Implement the "publish-subscribe" model
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Delegates – _Example_
 
 ```cs
@@ -238,13 +246,14 @@ public class Delegates_Example_
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Simple Delegate
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic10.png" style="top:52%; left:10.06%; width:80%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:52%; left:10.06%; width:80%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Generic and Multicast Delegates
 - A delegate can be generic:
 
@@ -273,7 +282,7 @@ d += Notify;
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Anonymous Methods
 - **Anonymous methods** are methods without name
   - Can take parameters and return values
@@ -296,7 +305,7 @@ class SomeClass
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Multicast Delegates – _Example_
 
 ```cs
@@ -325,7 +334,7 @@ public class MultiDelegates
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Predefined Delegates
 - Predefined delegates in .NET:
   - **Action&lt;T1, T2, T3&gt;** - generic predefined void delegate with parameters of types  **T1**, **T2** and **T3**
@@ -342,22 +351,24 @@ predefinedAction(1000);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Multicast Generic Delegate
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic11.png" style="top:52%; left:29.27%; width:42%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:52%; left:29.27%; width:42%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Events
-<img class="slide-image" src="\imgs\pic12.png" style="top:42.79%; left:42.40%; width:38.90%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic13.png" style="top:40.55%; left:8.10%; width:64.63%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:42.79%; left:42.40%; width:38.90%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:40.55%; left:8.10%; width:64.63%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Events
 - A message sent by an object to signal the occurrence of an action
 - Enable a class or object to notify other classes or objects when something of interest occurs
@@ -367,7 +378,7 @@ predefinedAction(1000);
 - In the .NET events are based on the **EventHandler** delegate and the **EventArgs** base class
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Define Events
 - Use **event** keyword
 - Specify type of delegate for the event – **EventHandler**
@@ -387,7 +398,7 @@ class Counter {
 ```
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Event Data
 - Data that is associated with an event can be provided through an event data class
 - **EventArgs** class is the base type for all event data classes
@@ -403,7 +414,7 @@ public class ThresholdReachedEventArgs : EventArgs
 ```
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Event Handlers
 - To respond to an event, you define an **event handler** method
   - Must match the signature of the delegate
@@ -423,21 +434,23 @@ class Program {
 ```
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Events
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic14.png" style="top:32.73%; left:19.22%; width:64.63%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:32.73%; left:19.22%; width:64.63%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Lambda Expressions
-<img class="slide-image" src="\imgs\pic15.png" style="top:42%; left:23%; width:53.33%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:42%; left:23%; width:53.33%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Lambda Expressions
 - A lambda expression is an **anonymous function**containing expressions and statements
   - Used to create delegates or expression tree types
@@ -449,7 +462,7 @@ class Program {
 - Link: [Lambda notation vs delegate keyword](http://stackoverflow.com/q/299703/1862812)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Lambda Expressions – _Examples_
 - Usually used with collection extension methods like **FindAll()** and **RemoveAll()**
 
@@ -469,7 +482,7 @@ list.RemoveAll(x => x > 3); // 1 2 3
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Sorting with Lambda Expression
 
 ```cs
@@ -490,7 +503,7 @@ foreach (Pet pet in sortedPets)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Lambda Code Expressions
 - Lambda code expressions:
 
@@ -512,7 +525,7 @@ foreach (int even in evenNumbers)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Delegates HoldingLambda Functions
 - Lambda functions can be stored in variables of type **delegate**
   - Delegates are typed references to functions
@@ -528,7 +541,7 @@ if (boolFunc() && intFunc(5))
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Predicates
 - Predicates are predefined delegates with the following signature
 
@@ -542,7 +555,7 @@ public delegate bool Predicate&lt;T&gt;(T obj)
   - For example **List&lt;T&gt;.FindAll(…)** retrieves all elements meeting the criteria
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Predicates – _Example_
 
 ```cs
@@ -569,14 +582,15 @@ foreach (string town in townsWithS)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Lambda Expressions
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic16.png" style="top:43.20%; left:29.01%; width:38.33%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic17.png" style="top:40.55%; left:65.50%; width:14.32%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:43.20%; left:29.01%; width:38.33%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:40.55%; left:65.50%; width:14.32%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Action&lt;T&gt; and Func&lt;T&gt;
 - Action&lt;T&gt; - void delegate with parameter T
 - Func&lt;T, Result&gt; - result delegate returning T
@@ -596,23 +610,25 @@ Console.WriteLine(greet("Ivaylo", 10));
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Action&lt;T&gt; and Func&lt;T&gt;
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic18.png" style="top:12.34%; left:22.46%; width:61.35%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:12.34%; left:22.46%; width:61.35%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # LINQ and Query Keywords
-<img class="slide-image" src="\imgs\pic19.png" style="top:38.53%; left:20.58%; width:49.04%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic20.png" style="top:37.86%; left:63.65%; width:37.00%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic21.png" style="top:3.50%; left:47.33%; width:53.27%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:38.53%; left:20.58%; width:49.04%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:37.86%; left:63.65%; width:37.00%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:3.50%; left:47.33%; width:53.27%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # LINQ Building Blocks -->
 - **LINQ** is a set of extensions to .NET Framework
   - Encompasses language-integrated query, set, and transform operations
@@ -622,14 +638,15 @@ Console.WriteLine(greet("Ivaylo", 10));
   - Converted to **expression trees** at compile time and evaluated at runtime
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # LINQ to *
 
-<img class="slide-image" src="\imgs\linqto.png" style="top:10%; left:7.84%; width:90%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/linqto.png" style="top:10%; left:7.84%; width:90%; z-index:-1" /> -->
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # LINQ and Query Keywords
 - Language Integrated Query (**LINQ**) query keywords
   - **from** – specifies data source and range variable
@@ -639,7 +656,7 @@ Console.WriteLine(greet("Ivaylo", 10));
   - **orderby** – sorts query results in ascending or descending order
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Query Keywords – _Examples_
 - **select**, **from** and **where** clauses:
 
@@ -658,10 +675,11 @@ foreach (var num in querySmallNums)
 // The result is 4 1 3 2 0
 ```
 
-<img class="slide-image" src="\imgs\pic31.png" style="top:31.67%; left:85.14%; width:20.61%; z-index:0" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:31.67%; left:85.14%; width:20.61%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Query Keywords – _Examples_ -->
 - Nested queries:
 
@@ -681,10 +699,11 @@ foreach (var townPair in townPairs)
 }
 ```
 
-<img class="slide-image" src="\imgs\pic32.png" style="top:47.37%; left:74.85%; width:30.85%; z-index:0" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:47.37%; left:74.85%; width:30.85%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Query Keywords – _Examples_ -->
 - Sorting with **оrderby**:
 
@@ -704,10 +723,11 @@ foreach (string fruit in fruitsAscending)
 }
 ```
 
-<img class="slide-image" src="\imgs\pic33.png" style="top:30.85%; left:80.47%; width:25.86%; z-index:0" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic33.png" style="top:30.85%; left:80.47%; width:25.86%; z-index:0" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Standard Query Operators – _Example_
 
 ```cs
@@ -735,7 +755,7 @@ var subset =
 ```
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Counting the Occurrences of a Word in a String – _Example_
 
 ```cs
@@ -762,7 +782,7 @@ int wordCount = source.Select(
 ```
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Querying Arrays
 - Any kind of arrays can be used with LINQ
   - Can be even an untyped array of objects
@@ -787,7 +807,7 @@ var titles =
 ```
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Querying Generic Lists
 - The previous example can be adapted to work with a generic list
   - **List&lt;T&gt;**, **LinkedList&lt;T&gt;**, **Queue&lt;T&gt;**, **Stack&lt;T&gt;**, **HashSet&lt;T&gt;**, etc.
@@ -804,7 +824,7 @@ var titles = books
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Querying Strings
 - Although **System.String** may not be perceived as a collection at first sight
   - It actually is a collection, because it implements **IEnumerable<char>**
@@ -825,7 +845,7 @@ var count =
   select c).Count();
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Operations
 - **Where()**
   - Searches by given condition
@@ -839,7 +859,7 @@ var count =
     - Orders a collection
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Operations
 - **Any()**
   - Checks if any element matches a condition
@@ -851,7 +871,7 @@ var count =
     - Reverses a collection
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Aggregation Methods
 - **Average()**
   - Calculates the average value of a collection
@@ -863,7 +883,7 @@ var count =
     - Sums the values in a collection
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Aggregation Methods – _Examples_
 - **Count(<condition>)**
 
@@ -881,7 +901,7 @@ var highTempCount =
    where p > 30
    select p).Count();
 ```
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Aggregation Methods – _Examples_
 - **Max()**
 
@@ -900,23 +920,25 @@ var maxTemp =
 ```
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # LINQ Query Keywords
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic34.png" style="top:52%; left:35.56%; width:30.41%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic35.png" style="top:42%; left:64.79%; width:24.46%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:52%; left:35.56%; width:30.41%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:42%; left:64.79%; width:24.46%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 # Dynamic Type
-<img class="slide-image" src="\imgs\pic37.png" style="top:24.10%; left:0%; width:24.85%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic38.png" style="top:20.12%; left:70.99%; width:33.74%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:24.10%; left:0%; width:24.85%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:20.12%; left:70.99%; width:33.74%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Dynamic Type
 - The Dynamic type is
   - Defined with the **dynamic** keyword
@@ -934,29 +956,31 @@ dyn = new[] { 5, 8, 10 };
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 # Dynamic Type
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic39.png" style="top:52%; left:28%; width:45%; z-index:-1" />
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic39.png" style="top:52%; left:28%; width:45%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
 # Extension Methods, Lambda Expressions and LINQ
 ## Questions?
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
+    - [C# OOP Course](http://academy.telerik.com/student-courses/programming/object-oriented-programming/about)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - [f]orums.academy.telerik.com](f]orums.academy.telerik.com)
-<img class="slide-image" src="\imgs\pic40.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic41.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic42.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic43.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" />
+    - [forums.academy.telerik.com](forums.academy.telerik.com)
+
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic40.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic41.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic42.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic43.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
