@@ -4,11 +4,7 @@
 ## Classes, Fields, Constructors, Methods, Properties
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:-0.12%; left:82.46%; width:28.21%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:53.77%; left:64.56%; width:37.78%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:3.83%; left:18.10%; width:22.74%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:47.93%; left:92.63%; width:17.08%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:1.97%; left:50.44%; width:22.96%; z-index:-1" /> -->
 <div class="signature">
 	<p class="signature-course">C# OOP</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
@@ -218,8 +214,7 @@ public class Constants
 ## Public, Private, Protected, Internal
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:40%; left:76.72%; width:28.32%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:52%; left:10.29%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:54%; left:34%; width:35%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -362,8 +357,8 @@ _(the example continues)_
   - Performed automatically in most cases
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:40.55%; left:79.53%; width:25.70%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:14.99%; left:77.66%; width:26.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:45%; left:74%; width:25.70%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:20%; left:74%; width:26.45%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -442,7 +437,7 @@ _(the example continues)_
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # What is Constructor?
 - **Constructors** are special methods
-  - Invoked at the time of **creating anew instance**of an object
+  - Invoked at the time of **creating a new instance** of an object
   - Used to initialize the fields of the instance
 - Constructors has the same name as the class
   - Have no return type
