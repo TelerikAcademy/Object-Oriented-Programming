@@ -61,7 +61,7 @@
   - Learn basic **data structures**, **algorithms** and object-oriented programming (**OOP**) concepts
   - Learn to produce **high-quality code**
   - **Prepare** for learning the software technologies
-    - HTML5, DB & SQL, Cloud, Web, Mobile, QA, …
+    - DB & SQL, Cloud, Web, Mobile, QA, …
 
 
 
