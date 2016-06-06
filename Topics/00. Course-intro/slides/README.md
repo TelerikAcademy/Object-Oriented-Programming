@@ -117,7 +117,6 @@
 # OOP – Evaluation
 - Evaluation components  
   - **Practical exam** – **60%**
-     - Half correctness, half OOP  
   - **Test** – **15%**  
   - **Teamwork** – **10%**  
   - **Homework** – **5%**  
