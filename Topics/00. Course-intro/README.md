@@ -33,7 +33,7 @@
 <!-- # Object-Oriented Programming (OOP) -->
 <!-- ## Coming To The Next Module -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:69%; left:36%; width:30%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:55%; left:36%; width:30%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'next', showInPresentation:true, hasScriptWrapper:true } -->
@@ -84,7 +84,6 @@
   - Static Members, Structures, Generic Types, Namespaces, Attributes
 - Delegates, Extension Methods, Lambda Functions, Anonymous Types and LINQ
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:72%; left:90%; width:11.08%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -98,9 +97,6 @@
 - OOP Workshop
 - Exam Preparation
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:14.99%; left:94.47%; width:13.05%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:44.96%; left:94.50%; width:11.46%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:62.59%; left:85.14%; width:18.56%; z-index:-1" /> -->
 
 
 <!-- section start -->
@@ -108,8 +104,7 @@
 <!-- # Evaluation
 ## Thank God There Are Bonuses! -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:52%; left:14.97%; width:21.32%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:52%; left:56.14%; width:43.95%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:52%; left:57.21%; width:12.22%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:52%; left:56.14%; width:30%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'criteria', showInPresentation:true, hasScriptWrapper:true } -->
@@ -118,7 +113,7 @@
   - **Practical exam** – **65%**
   - **Test** – **10%**  
   - **Teamwork** – **10%**  
-      - The most important part for your portfolio.
+      - The most important part<br /> for your portfolio.
   - **Homework** – **5%**  
   - Homework **evaluation** – **5%**  
     - 3 peer reviews per homework  
@@ -163,7 +158,7 @@
   - Use Student ID Card
   - Check in +/-30 min. <br />before/after lecture starts
 
-  <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:10%; left:69%; width:26.15%; z-index:-1" /> -->
+  <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:60%; left:57%; width:40%; z-index:-1" /> -->
 
 
 
@@ -203,10 +198,7 @@
 <!-- # Resources
 ## What We Need in Addition to this Course Content? -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:4.19%; left:58.09%; width:16.09%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:3.53%; left:75.48%; width:14.10%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:5.73%; left:94.27%; width:12.78%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic40.png" style="top:11.92%; left:9.79%; width:19.86%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic40.png" style="top:65%; left:40%; width:19.86%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'resource', showInPresentation:true, hasScriptWrapper:true } -->
@@ -260,18 +252,12 @@
   - **.NET Framework 4.5** or higher (included in Visual Studio)
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic44.png" style="top:62%; left:50.53%; width:51.79%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic45.png" style="top:62%; left:6.87%; width:37.30%; z-index:-1" /> -->
-
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Object-Oriented Programming: Course Introduction
 ## Questions? -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic46.png" style="top:54%; left:75%; width:32.62%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic47.png" style="top:22.08%; left:90.14%; width:14.10%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic48.png" style="top:53%; left:10%; width:14.10%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic49.png" style="top:1%; left:35%; width:33.23%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic46.png" style="top:10%; left:40%; width:20%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
