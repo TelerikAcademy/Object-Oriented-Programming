@@ -54,7 +54,7 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Classes in C#
+# Classes in C\#
 - Classes in C# can have **members**:
   - Fields, constants, methods, properties, indexers, events, operators, constructors, destructors, …
   - Inner types (inner classes, structures, interfaces, delegates, ...)
