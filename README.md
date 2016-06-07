@@ -17,7 +17,7 @@ Course Program, Examination, Trainers
 Classes, Fields, Constructors, Methods, Properties
 
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/01.%20Introduction-to-Programming/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/01. Introduction-to-Programming/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/01. Introduction-to-Programming/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/01. Introduction-to-Programming/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/01. Defining-Classes-Part-1/slides/index.html)) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/01. Defining-Classes-Part-1/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/01. Defining-Classes-Part-1/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/01. Defining-Classes-Part-1/VIDEOS.md)
 
 
 ### [02. Defining Classes 2](/Topics/02. Defining-Classes-Part-2)
