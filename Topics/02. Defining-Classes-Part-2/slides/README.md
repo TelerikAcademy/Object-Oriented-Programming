@@ -4,11 +4,8 @@
 ## Static Members, Structures,Enumerations, Generic Classes, Namespaces
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:-0.12%; left:82.46%; width:28.21%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:53.77%; left:64.56%; width:37.78%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:3.83%; left:18.10%; width:22.74%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:49.37%; left:92.63%; width:17.08%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:1.97%; left:50.44%; width:22.96%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:65%; left:85%; width:17.08%; z-index:-1; border-radius:10px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:60%; left:60%; width:22.96%; z-index:-1; border-radius:10px;" /> -->
 <div class="signature">
 	<p class="signature-course">C# OOP</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
@@ -30,34 +27,34 @@
 - [Attributes](#attribute)
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:41.43%; left:70.17%; width:29.09%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:15.06%; left:65.56%; width:33.23%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:41.43%; left:70.17%; width:20%; z-index:-1; border-radius:10px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:15.06%; left:65.56%; width:25%; z-index:-1; border-radius:10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Static Members
-## Static vs. Instance Members
+<!-- # Static Members
+## Static vs. Instance Members -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:52%; left:39.30%; width:25%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:55%; left:42%; width:20%; z-index:-1; border-radius:10px;; border-radius:10px" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Static Members
+<!-- attr: { id:'static', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="static"></a>Static Members
 - Static members are associated with a type rather than with an instance
-  - Defined with the modifier **static**
+  - Defined with the modifier `static`
 - Static can be used for
-  - Fields
-  - Properties
-  - Methods
-  - Events
-  - Constructors
+  - `Fields`
+  - `Properties`
+  - `Methods`
+  - `Events`
+  - `Constructors`
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:42.31%; left:66.43%; width:35.92%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:42.31%; left:75%; width:25%; z-index:-1; border-radius:10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -97,7 +94,7 @@ _(example continues)_
 
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:10.80%; left:85.14%; width:21.32%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:10.80%; left:80%; width:21.32%; z-index:0" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -122,38 +119,31 @@ class SqrtTest
 }
 ```
 
-
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:13.22%; left:79.64%; width:24.58%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:13.22%; left:79.64%; width:20%; z-index:0; border-radius:10px;" /> -->
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Static Members
-## [Demo]()
-
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:52%; left:28.07%; width:40%; z-index:-1" /> -->
-
-
+<!-- # Static Members
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/StaticMembers) -->
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# C# Structures
+<!-- attr: { id:'structures', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # <a id="structures"></a>C# Structures -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:42%; left:32.75%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:42%; left:38%; width:25%; z-index:-1; border-radius:10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # C# Structures
-- What is a **structure** in C#?
+- What is a `structure` in C#?
   - A **value data type** (behaves like a primitive type)
-    - _Examples_ of structures: **int**, **double**, **DateTime**
+    - _Examples_ of structures: `int`, `double`, `DateTime`
     - Classes are reference types
-  - Declared by the keyword **struct**
+  - Declared by the keyword `struct`
   - Structures, like classes, have properties, methods, fields, constructors, events, …
-  - Always have a parameterless constructor
+  - **Always have a parameterless constructor**
     - It cannot be removed
   - Mostly used to store data (bunch of fields)
 
@@ -208,29 +198,29 @@ struct Square
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# C# Structures
-## [Demo]()
+<!-- # C# Structures
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Structures) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:52%; left:33%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:55%; left:38%; width:25%; z-index:-1; border-radius:50px; border: 2px solid white;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Generic Classes
+<!-- # Generic Classes -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:42%; left:35%; width:33.46%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:42%; left:35%; width:33.46%; z-index:-1; border-radius:10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# What are Generics?
+<!-- attr: { id:'generic', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="generic"></a>What are Generics?
 - **Generics** allow defining parameterized classes that process data of unknown (generic) type
   - The class can be instantiated (specialized) with different particular types
-  - _Example_: **List<T>** &rarr; **List<int>** / **List<string>** / **List<Student>**
-- Generics are also known as "**parameterized** **types**" or "**template types**"
+  - _Example_: <code>List&lt;T&gt; &rarr; List&lt;int&gt; / List&lt;string&gt; / List&lt;Student&gt;</code>
+- Generics are also known as "**parameterized types**" or "**template types**"
   - Similar to the templates in C++
   - Similar to the generics in Java
 
@@ -257,16 +247,13 @@ class GenericList_Example_
 }
 ```
 
-<div class="fragment balloon" style="top:11.07%; left:59.72%; width:39.89%">**T** is an unknown type, parameter of the class</div>
+<div class="fragment balloon" style="top:15%; left:45%; width:39.89%">**T** is an unknown type, parameter of the class</div>
 <div class="fragment balloon" style="top:28.07%; left:52.63%; width:39.89%">**T** can be used in any method in the class</div>
-<div class="fragment balloon" style="top:43.31%; left:67.86%; width:31.75%">**T** can be replaced with **int** during the instantiation</div>
+<div class="fragment balloon" style="top:50%; left:50%; width:31.75%">**T** can be replaced with **int** during the instantiation</div>
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Generic Classes
-
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:42%; left:20.39%; width:60.57%; z-index:-1" /> -->
+<!-- # Generic Classes -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -316,21 +303,20 @@ where T: class, IEnumerable<T>, new()
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Generic Constraints
 - Primary constraint:
-  - **class** (reference type parameters)
-  - **struct** (value type parameters)
+  - `class` (reference type parameters)
+  - `struct` (value type parameters)
 - Secondary constraints:
   - Interface derivation
   - Base class derivation
 - Constructor constraint:
-  - **new()** – parameterless constructor constraint
+  - `new()` – parameterless constructor constraint
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Generic Constraints
-## [Demo]()
+<!-- # Generic Constraints
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Generic-Constraints) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:52%; left:7.16%; width:92.30%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -356,31 +342,28 @@ static void Main()
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Generic Methods
-## [Demo]()
-
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
-
+<!-- # Generic Methods
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Generic-Methods) -->
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Namespaces
+<!-- # Namespaces -->
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:45%; left:37%; width:25%; z-index:-1; border-radius:10px;" /> -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:42%; left:60.82%; width:25%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:42%; left:12.16%; width:34.20%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Namespaces
-- **Namespaces** logically group type definitions
+<!-- attr: { id:'namespace', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="namespace"></a>Namespaces
+- `Namespaces` logically group type definitions
   - May contain classes, structures, interfaces, enumerators and other types and namespaces
   - Can not contain methods and data directly
   - Can be allocated in one or several files
-- Namespaces in .NET are similar to namespaces in C++ and packages in Java
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- # Namespaces -->
+- `Namespaces` in .NET are similar to namespaces in C++ and packages in Java
 - Allows definition of types with duplicated names
   - E.g. a type named **Button** is found in Windows Forms, in WPF and in ASP.NET Web Forms
 
@@ -388,31 +371,28 @@ static void Main()
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Including Namespaces
 - Including a namespace
-  - The **using** directive is put at the start of the file
+  - The `using` directive is put at the start of the file
 
   ```cs
   using System.Windows.Forms;
   ```
 
-  - **using** allows direct use of all types in the namespace
+  - `using` allows direct use of all types in the namespace
   - Including is applied to the current file
-  - The directive is written at the begging of the file
-  - When includes a namespace with **using** its subset of namespaces is not included
-
-
-
+  - The directive is written at the beginning of the file
+  - When includes a namespace with `using` its subset of namespaces is not included
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Including Namespaces -->
-- Types, placed in namespaces, can be used and without **using** directive, by their full name:
+- Types, placed in namespaces, can be used and without `using` directive, by their full name:
 
 ```cs
 System.IO.StreamReader reader =
     System.IO.File.OpenText("file.txt");
 ```
 
-- **using** can create alias for namespaces :
+- `using` can create alias for namespaces :
 
 ```cs
 using IO = System.IO;
@@ -425,10 +405,10 @@ WinForms.Form form = new WinForms.Form();
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Defining Namespaces
-- Divide the types in your applications into namespaces
+- **Divide** the types in your applications into namespaces
   - When the types are too much (more than 15-20)
   - Group the types logically in namespaces according to their purpose
-- Use nested namespaces when the types are too much
+- Use **nested namespaces** when the types are too much
   - E.g. for Tetris game you may have the following namespaces: **Tetris.Core**, **Tetris.Web**, **Tetris.Win8**, **Tetris.HTML5Client**
 
 
@@ -501,32 +481,28 @@ namespace SofiaUniversity
 - Recommended directory structure and classes organization in them
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:25.56%; left:25.18%; width:53.33%; z-index:-1; background-color: white;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:30%; left:25.18%; width:53.33%; z-index:-1; border-radius:10px;; background-color: white;" /> -->
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Namespaces
-## [Demo]()
-
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:42%; left:8.42%; width:35%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:42%; left:57.40%; width:40%; z-index:-1" /> -->
+<!-- # Namespaces
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Namespaces) -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Indexers
+<!-- # Indexers -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:42%; left:32%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:42%; left:32%; width:35%; z-index:-1; border-radius:10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Indexers
-- **Indexers** provide indexed access class data
-  - Predefine the **[]** operator for certain type
+<!-- attr: { id:'index', showInPresentation:true, hasScriptWrapper:false, style:' font-size: 0.9em;' } -->
+# <a id="index"></a>Indexers
+- `Indexers` provide indexed access class data
+  - Predefine the `[]` operator for certain type
     - Like when accessing array elements
 
 ```cs
@@ -536,13 +512,12 @@ t[0] = 42;
 ```
 
   - Can accept one or multiple parameters
-  - Defining an indexer:
-
 
 ```cs
 personInfo["Nikolay Kostov", 25]
 ```
 
+  - Defining an indexer:
 
 ```cs
 public int this [int index] { … }
@@ -550,7 +525,7 @@ public int this [int index] { … }
 
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true} -->
 # Indexers – _Example_
 
 ```cs
@@ -575,7 +550,7 @@ struct BitArray32
 _(the example continues)_
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 0.9em;'  } -->
 <!-- # Indexers – _Example_ -->
 
 ```cs
@@ -603,20 +578,19 @@ set
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Indexers
-## [Demo]()
+<!-- # Indexers
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Indexers) -->
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Operators Overloading
+<!-- # Operators Overloading -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:42%; left:9.71%; width:58.18%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:42%; left:68.23%; width:33.95%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:42%; left:37%; width:25%; z-index:-1; border-radius:10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Overloading Operators
+<!-- attr: { id:'operator', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="operator"></a>Overloading Operators
 - In C# some operators can be **overloaded**(**redefined**) by developers
   - The priority of operators can not be changed
   - Not all operators can be overloaded
@@ -642,16 +616,19 @@ public static Matrix operator *(Matrix m1, Matrix m2)
 ```
 
 - Binary  operators
-- Operators for type conversion
-  - Implicit type conversion
-  - Explicit type conversion **(type)**
-
-
-
 
 ```cs
 +, -, *, /, %, &, |, ^, <<, >>, ==, !=, >, <, >= and <=
 ```
+
+- Operators for type conversion
+  - Implicit type conversion
+  - Explicit type conversion `(type)`
+
+
+
+
+
 
 
 
@@ -692,7 +669,7 @@ public static Fraction operator -(Fraction fraction)
 // Operator ++ (the same for prefix and postfix form)
 public static Fraction operator ++(Fraction fraction)
 {
-    long num = fraction.numerator + 	fraction.denominator;
+    long num = fraction.numerator + fraction.denominator;
     long denom = Frac.denominator;
     return new Fraction(num, denom);
 }				
@@ -701,38 +678,37 @@ public static Fraction operator ++(Fraction fraction)
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Overloading Operators
-## [Demo]()
+<!-- # Overloading Operators
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Overloading-Operators) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius:10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Attributes
-## Applying Attributes to Code Elements
+<!-- # Attributes
+## Applying Attributes to Code Elements -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:52%; left:54.73%; width:35%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:52%; left:11.23%; width:28%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:55%; left:39%; width:22%; z-index:-1; border-radius:10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# What are Attributes?
-- .NET **attributes** are:
+<!-- attr: { id:'attribute', showInPresentation:true, hasScriptWrapper:false} -->
+# <a id="attribute"></a>What are Attributes?
+- .NET `attributes` are:
   - Declarative tags for attaching descriptive information in the declarations in the code
   - Saved in the assembly at compile time
-    - Objects derived from **System.Attribute**
+    - Objects derived from `System.Attribute`
   - Can be accessed at runtime (through **reflection**) and manipulated by many tools
 - Developers can define custom attributes
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:0.9em'  } -->
 # Applying Attributes – _Example_
-- Attribute`s name is surrounded by square brackets **[]**
+- Attribute\`s name is surrounded by square brackets `[]`
   - Placed before their target declaration
 
   ```cs
@@ -745,10 +721,10 @@ public static Fraction operator ++(Fraction fraction)
   }
   ```
 
-- **[Flags]** attribute indicates that the enum type can be treated like a set of bit flags
+- `[Flags]` attribute indicates that the enum type can be treated like a set of bit flags
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em'  } -->
 <!-- # Attributes with Parameters -->
 - Attributes can accept parameters for their constructors and public properties
 
@@ -760,8 +736,8 @@ public static extern int ShowMessageBox(int hWnd,
 ShowMessageBox(0, "Some text", "Some caption", 0);
 ```
 
-- The **[DllImport]** attribute refers to:
-  - **System.Runtime.InteropServices.DllImportAttribute**
+- The `[DllImport]` attribute refers to:
+  - `System.Runtime.InteropServices.DllImportAttribute`
   - "**user32.dll**" is passed to the constructor
   - "**MessageBox**" value is assigned to **EntryPoint**
 
@@ -788,20 +764,17 @@ class TestClass
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Using Attributes
-## [Demo]()
+<!-- # Using Attributes
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Attributes) -->
 
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:42%; left:63.92%; width:21.27%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:42%; left:15.38%; width:19.89%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Custom Attributes
 - .NET developers can define their own **custom attributes**
-  - Must inherit from **System.Attribute** class
-  - Their names must end with '**Attribute**'
-  - Possible targets must be defined via **[AttributeUsage]**
+  - Must inherit from `System.Attribute` class
+  - Their names must end with '`Attribute`'
+  - Possible targets must be defined via `[AttributeUsage]`
   - Can define constructors with parameters
   - Can define public fields and properties
 
@@ -852,25 +825,25 @@ class CustomAttributesDemo
 ```
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Defining, Applying and Retrieving Custom Attributes
-## [Demo]()
+<!-- # Defining, Applying and Retrieving Custom Attributes
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/02.%20Defining-Classes-Part-2/demos/Custom-Attributes) -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
 # Summary
-- Classes define specific structure for objects
-  - Objects are particular instances of a class
-- Constructors are invoked when creating new class instances
-- Properties expose the class data in safe, controlled way
-- Static members are shared between all instances
-  - Instance members are per object
-- Structures are "value-type" classes
-- Generics are parameterized classes
+- **Classes** define specific structure for **objects**
+  - **Objects** are particular instances of a **class**
+- **Constructors** are invoked when creating **new class** instances
+- **Properties** expose the **class data** in safe, controlled way
+- **Static** members are **shared** between all instances
+  - **Instance** members are **per object**
+- **Structures** are "value-type" classes
+- **Generics** are parameterized classes
 
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
-# Defining Classes – Part 2
-## Questions?
+<!-- # Defining Classes – Part 2
+## Questions? -->
 
 
 
@@ -886,7 +859,7 @@ class CustomAttributesDemo
     - [forums.academy.telerik.com](forums.academy.telerik.com)
 
 
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic37.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic38.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic39.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic40.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic37.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1; border-radius:10px;" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic38.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1; border-radius:10px;" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic39.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1; border-radius:10px;" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic40.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1; border-radius:10px;" /> -->
