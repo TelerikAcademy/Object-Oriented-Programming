@@ -15,6 +15,16 @@ Design and implement an object-oriented application by choice. Here are some sug
   - Calendar application, keeping meetings with places and date, having notifications, etc.
   - Social network, with different users, different roles, friend list, user information, chat between users, groups of users, etc.
   - A chat application, supporting user-to-user chats, channels, group chats, friends-list, starred users, etc.
+  - Application for Insurance company.
+  - Informational system for Postal services (sending & receiving mails, packages, etc).
+  - Encyclopedia game.
+  - Geocaching game.
+  - “Tourist guide” informational system.
+  - Cooking e-book.
+  - Personal accounting system.
+  - Personal medical cart.
+  - Events scheduling system.
+
 
 ## General Requirements
 Please define and implement the following object-oriented assets in your project:
