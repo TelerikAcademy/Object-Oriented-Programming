@@ -46,6 +46,7 @@ You might read about design patterns in Wikipedia, Sourcemaking, DoFactory and o
 - Follow the **best practices for OO design**: use data encapsulation, use exception handling properly, use delegates and events like it is recommended in MSDN, use inheritance, abstraction and polymorphism properly, follow the principles of strong cohesion and loose coupling.
 - Obligatory use Git to keep your source code and for team collaboration (you might use https://github.com/). **TFS or SVN are not allowed. Use Git.**
 - Provide a class diagram (to visualize all types).
+- Obligatory  upload your projects in the Showcase system.
 
 ## Optional Requirements
 If you have a chance, time and a suitable situation, you might add some of the following to your project:
