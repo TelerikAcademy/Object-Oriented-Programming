@@ -46,7 +46,6 @@ You might read about design patterns in Wikipedia, Sourcemaking, DoFactory and o
 - Follow the **best practices for OO design**: use data encapsulation, use exception handling properly, use delegates and events like it is recommended in MSDN, use inheritance, abstraction and polymorphism properly, follow the principles of strong cohesion and loose coupling.
 - Obligatory use Git to keep your source code and for team collaboration (you might use https://github.com/). **TFS or SVN are not allowed. Use Git.**
 - Provide a class diagram (to visualize all types).
-- Obligatory  upload your projects in the Showcase system (http://best.telerikacademy.com)
 
 ## Optional Requirements
 If you have a chance, time and a suitable situation, you might add some of the following to your project:
@@ -62,7 +61,7 @@ If you have a chance, time and a suitable situation, you might add some of the f
 - Completely finished project is not obligatory required. It will not be a big problem if your project is not completely finished or is not working greatly. This team work project is for educational purpose. Its main purpose it to experience object-oriented modeling and OOP in a real-world project and to get some experience in team working and team collaboration with Git.
 
 ## Deliverables
-Put the following in a ZIP archive and submit it (each team member submits the same file):
+Put the following in a ZIP archive and submit it in http://telerikacademy.com/ course page (each team member submits the same file):
 - The complete source code.
 - Brief documentation of your project in **.md**(markdown). It should provide the following information (in brief):
   - Team name and list of team members (with http://telerikacademy.com usernames)
@@ -70,6 +69,7 @@ Put the following in a ZIP archive and submit it (each team member submits the s
   - Class diagram of your types
   - The URL of your Git repository
   - Any other information (optionally)
+- Obligatory upload your projects in the Showcase system (http://best.telerikacademy.com/)
 - Optionally provide a PowerPoint presentation designed for the project defense.
 
 ## Public Project Defense
