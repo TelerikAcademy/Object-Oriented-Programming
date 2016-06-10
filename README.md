@@ -9,7 +9,7 @@ Repository for the course [Object-oriented programming with C#](https://telerika
 
 Course Program, Examination, Trainers
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/00.%20Course-intro/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/00. Course-Intro/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/00. Course-Intro/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/00. Course-Intro/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/00.%20Course-intro/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/00. Course-Intro/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/00. Course-Intro/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/00. Course-Intro/VIDEOS.md)
 
 
 ### [01. Defining Classes 1](/Topics/01. Defining-Classes-Part-1)
@@ -17,7 +17,7 @@ Course Program, Examination, Trainers
 Classes, Fields, Constructors, Methods, Properties
 
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/01. Defining-Classes-Part-1/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/01. Defining-Classes-Part-1/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/01. Defining-Classes-Part-1/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/01. Defining-Classes-Part-1/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/01. Defining-Classes-Part-1/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/01. Defining-Classes-Part-1/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/01. Defining-Classes-Part-1/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/01. Defining-Classes-Part-1/VIDEOS.md)
 
 
 ### [02. Defining Classes 2](/Topics/02. Defining-Classes-Part-2)
@@ -25,7 +25,7 @@ Classes, Fields, Constructors, Methods, Properties
 Static Members, Structures,Enumerations, Generic Classes, Namespaces
 
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/02. Defining-Classes-Part-2/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/02. Defining-Classes-Part-2/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/02. Defining-Classes-Part-2/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/02. Defining-Classes-Part-2/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/02. Defining-Classes-Part-2/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/02. Defining-Classes-Part-2/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/02. Defining-Classes-Part-2/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/02. Defining-Classes-Part-2/VIDEOS.md)
 
 ### [03. Extension Methods, Delegates, Lambda Expressions, LINQ](/Topics/03. Extension-Methods-Delegates-Lambda-LINQ)
 
