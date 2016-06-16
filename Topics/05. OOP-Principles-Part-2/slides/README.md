@@ -6,6 +6,7 @@
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:49.29%; left:74.86%; width:18.36%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:3.99%; left:82.24%; width:21.55%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:4.34%; left:59.88%; width:16.47%; z-index:-1" /> -->
+
 <div class="signature">
 	<p class="signature-course">C# OOP</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
