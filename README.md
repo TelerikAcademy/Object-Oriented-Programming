@@ -39,7 +39,7 @@ Extension Methods, Anonymous Types, Delegates, Lambda Expressions, LINQ, Dynamic
 
 Inheritance, Abstraction, Encapsulation
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/04. OOP-Principles-Part-1/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/04. OOP-Principles-Part-1/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/04. OOP-Principles-Part-1/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/04. OOP-Principles-Part-1/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/Object-Oriented-Programming/master/Topics/04. OOP-Principles-Part-1/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/04. OOP-Principles-Part-1/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/04. OOP-Principles-Part-1/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/04. OOP-Principles-Part-1/VIDEOS.md)
 
 ### [05. OOP Principles 2](/Topics/05. OOP-Principles-Part-2)
 
