@@ -7,4 +7,9 @@ internal abstract class Figure
         Console.WriteLine("I am a figure of unknown kind:");
         Console.WriteLine(this.GetType().Name);
     }
+
+    public abstract void Important()
+    {
+
+    }
 }
