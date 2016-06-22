@@ -3,14 +3,7 @@
 # Common Type System
 ## .NET Types Hierarchy, Cloning, Comparing, Value and Reference Types, Parameters Passing
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic00.png" style="top:52.11%; left:62.69%; width:39.67%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:10.95%; left:4.29%; width:17.81%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:55.07%; left:65.07%; width:13.75%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:57.66%; left:75.75%; width:10.40%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:53.37%; left:90.61%; width:12.39%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:58.04%; left:85.22%; width:8.59%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:53.12%; left:82.89%; width:7.01%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:45.73%; left:31.43%; width:13.05%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:70%; left:90%; width:13.05%; z-index:-1; border-radius: 10px;" /> -->
 <div class="signature">
 	<p class="signature-course">C# OOP</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
@@ -23,51 +16,46 @@
 <!-- section start -->
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- What is Common Type System (CTS)?
+- [What is Common Type System (CTS)?](#cts)
   - Types Hierarchy
-- The System.Object type
-  - Overriding the Virtual Methodsin **System.Object**
-- Operators **is** and **as**
-- Object Cloning
+- [The System.Object type](#object)
+  - [Overriding the Virtual Methods in **System.Object**](#virtual)
+- [Operators **is** and **as**](#isas)
+- [Object Cloning](#cloning)
   - **ICloneable** Interface
-- The **IComparable<T>** Interface
+- [The <code>IComparable&lt;T&gt;</code> Interface](#icomparable)
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:43.20%; left:75.79%; width:30.33%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:43.20%; left:75.79%; width:30.33%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Table of Contents -->
-- The **IEnumerable<T>** interface
-- Value Types and Reference Types
-  - Boxing and Unboxing
-- Passing Parameters
+- [The <code>IEnumerable&lt;T&gt;</code> interface](#ienumerable)
+- [Value Types and Reference Types](#types)
+  - [Boxing and Unboxing](#boxing)
+- [Passing Parameters](#params)
   - Input, Output and Reference Passing
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:51.29%; left:62.35%; width:26.76%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:52.04%; left:18.82%; width:23.53%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:55%; left:75%; width:25%; z-index:-1; border-radius: 10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# What is Common Type System (CTS)?
+<!-- # What is Common Type System (CTS)? -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:50.25%; left:17.78%; width:21.32%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:59.68%; left:76.72%; width:10.40%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:58.77%; left:85.22%; width:8.59%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:55.13%; left:81.47%; width:7.01%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Inside .NET Framework
-- Building blocks of .NET Framework
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/net-framework.png" style="top:20.13%; left:10.47%; width:95%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# What is CTS?
+# Inside .NET Framework
+- Building blocks of .NET Framework
+
+<img class="slide-image" src="imgs/net-framework.png" style="top:20.13%; left:10.47%; width:95%; z-index:-1; border-radius: 10px;" />
+
+
+<!-- attr: { id:'cts',showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="cts"></a>What is CTS?
 - .NET Common Type System (CTS)
 - Defines CLR supported
   - Data types
@@ -76,61 +64,52 @@
 - Supports two types of data
   - Value types
   - Reference types
-- All data types are inheritors of **System.Object**
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:20.28%; left:80.47%; width:13.81%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:19.37%; left:90.71%; width:11.40%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:14.10%; left:86.39%; width:9.30%; z-index:-1" /> -->
+- All data types are inheritors of `System.Object`
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# .NET CTS Types Hierarchy
+<!-- # .NET CTS Types Hierarchy -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:15.29%; left:6.08%; width:95.03%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:15.29%; left:6.08%; width:95.03%; z-index:-1; border-radius: 10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# The  System.Object Type
+<!-- # The System.Object Type -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:42%; left:38.60%; width:35.04%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:38.94%; left:69.24%; width:27.33%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:35.30%; left:8.87%; width:34.06%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:45%; left:35%; width:25%; z-index:-1; border-radius: 10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# System.Object Type
+<!-- attr: { id:'object',showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="object"></a>System.Object Type
 - Base class for each .NET type
   - Inherited by default whena new type is defined
 - Important virtual methods:
-  - **Equals()** – comparison with other object
-  - **ToString()** – represents the object as a string
-  - **GetHashCode()** – evaluates the hash code (used with hash-tables)
-  - **Finalize()** – used for clean up purposes when an object is disposed
+  - `Equals()` – comparison with other object
+  - `ToString()` – represents the object as a string
+  - `GetHashCode()` – evaluates the hash code (used with hash-tables)
+  - `Finalize()` – used for clean up purposes when an object is disposed
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:12.41%; left:79.30%; width:21.98%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:72%; left:79.30%; width:15%; z-index:-1; border-radius: 10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Overriding the Virtual Methods in System.Object
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:52%; left:25.26%; width:43.21%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:52%; left:61.27%; width:27.33%; z-index:-1" /> -->
+<!-- # Overriding the Virtual Methods in System.Object -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Overriding System.Object's Virtual Methods
-- By default the operator **==** calls the **ReferenceEquals()** method
+<!-- attr: { id:'virtual', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="virtual"></a> Overriding System.Object's Virtual Methods
+- By default the operator `==` calls the `ReferenceEquals()` method
   - Compares the addresses for reference types
   - Or the binary representation for value types
-- The methods **Equals()**, **GetHashCode()** should be defined at the same time
-  - The same applies for the operators **==** and **!=**
-  - You can override **Equals()** and use its implementation for **==** and **!=**
+- The methods `Equals()`, `GetHashCode()` should be defined at the same time
+  - The same applies for the operators `==` and `!=`
+  - You can override `Equals()` and use its implementation for `==` and `!=`
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:40px;' } -->
@@ -185,19 +164,19 @@ _the example continues_
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Overriding the Virtual Methods in System.Object
-## [Demo]()
+<!-- # Overriding the Virtual Methods in System.Object
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/System.Object-Overloading) -->
 
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # More About System.Object
-- The **System.Object** type has some other methods, which are inherited by all .NET types:
-  - **GetType()**
-    - Returns type's metadata as a **System.Type**
-  - **MemberwiseClone()**
+- The `System.Object` type has some other methods, which are inherited by all .NET types:
+  - `GetType()`
+    - Returns type's metadata as a `System.Type`
+  - `MemberwiseClone()`
     - Copies the binary representation of the variable into a new variable (shallow clone)
-  - **ReferenceEquals()**
+  - `ReferenceEquals()`
     - Compares if two object have the same reference
 
 
@@ -205,26 +184,25 @@ _the example continues_
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# is and as operators
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:42%; left:28.98%; width:51.15%; z-index:-1" /> -->
+<!-- # `is` and `as` operators -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Type Operators in C#
-- The **is** operator
+
+<!-- attr: { id:'isas', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="isas"></a>Type Operators in C&#35;
+- The `is` operator
   - Checks if an object an is instance of some type
   - Polymorphic operation
-    - 5 is Int32
-    - 5 is object
-    - 5 is IComparable<int>
-- The **as** operator
+    - `5 is Int32`
+    - `5 is object`
+    - <code>5 is IComparable&lt;int&gt;</code>
+- The `as` operator
   - Casts a reference type to another reference type
-  - Returns **null** value if it fails
+  - Returns `null` value if it fails
     - E.g. if the types are incompatible
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:28.82%; left:72.82%; width:28.36%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:28.82%; left:72.82%; width:28.36%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -278,41 +256,37 @@ _the example continues_
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Operators is and as
-## [Demo]()
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:52%; left:29.59%; width:40%; z-index:-1" /> -->
-
-
+<!-- # Operators is and as
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/Is-and-as-Operators) -->
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Object Cloning
+<!-- # Object Cloning -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:42%; left:20%; width:60%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:42%; left:20%; width:60%; z-index:-1; border-radius: 10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Object Cloning
-- In programming **cloning** an object means to create an identical copy of certain object
-- **Shallow cloning**(shallow copy)
-  - Uses the protected **MemberwiseClone()** method
+<!-- attr: { id:'cloning', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="cloning"></a>Object Cloning
+- In programming `cloning` an object means to create an identical copy of certain object
+- `Shallow cloning`(shallow copy)
+  - Uses the protected `MemberwiseClone()` method
   - Copies the value types bit by bit (binary)
   - Copies only the addresses of the reference types
-- **Deepcloning**(deep copy)
+- `Deepcloning`(deep copy)
   - Recursively copies all member data
   - Implemented manually by the programmer
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Object Cloning -->
-- Types which allow cloning implement the **ICloneable** interface
-- The **Clone()** method of the **ICloneable**
+- Types which allow cloning implement the `ICloneable` interface
+- The `Clone()` method of the `ICloneable`
   - The only method of the interface
   - Returns an identical copy of the object
-    - Returns **object** &rarr; must be casted later
-  - You decide whether to create a **deep**or **shallow**copy or **something between**
+    - Returns `object` &rarr; must be casted later
+  - You decide whether to create a **deep** or **shallow** copy or **something between**
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -335,6 +309,7 @@ class LinkedList<T>: ICloneable
   {
     return this.Clone();
   }
+}
 ```
 
 _the example continues_
@@ -366,39 +341,34 @@ public LinkedList<T> Clone() // our method Clone()
 ```
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic33.png" style="top:39.26%; left:74.85%; width:23.74%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic33.png" style="top:39.26%; left:70%; width:23.74%; z-index:0" /> -->
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Deep and Shallow Object Cloning
-## [Demo]()
+<!-- # Deep and Shallow Object Cloning
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/ObjectCloning) -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# The Interface IComparable<T>
+<!-- # The Interface IComparable&lt;T&gt; -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:36.44%; left:28.13%; width:52.83%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# IComparable<T> Interface
-- The **System.IComparable<T**> interface
+<!-- attr: { id:'icomparable',showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em' } -->
+# <a id="icomparable"></a>IComparable&lt;T&gt; Interface
+- The <code>System.IComparable&lt;T&gt;</code> interface
   - Implemented by the types, which can be compared (ordered in increasing order)
-- The **CompareTo(T)** method defines the comparison. It returns:
-  - Number **< 0**– if the passed object isbigger than the **this** instance
-  - Number **= 0** – if the passed object isequal to the **this** instance
-  - Number **> 0**– if the passed object issmaller than the **this** instance
+- The `CompareTo(T)` method defines the comparison. It returns:
+  - Number `< 0`– if the passed object is bigger than the `this` instance
+  - Number `= 0` – if the passed object is equal to the `this` instance
+  - Number `> 0`– if the passed object is smaller than the `this` instance
 
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:59.94%; left:84.58%; width:21.69%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# IComparable<T> – _Example_
+# IComparable&lt;T&gt; – _Example_
 
 ```cs
 class Point : IComparable<Point>
@@ -423,21 +393,21 @@ class Point : IComparable<Point>
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Implementing IComparable<T>
-## [Demo]()
+<!-- # Implementing IComparable&lt;T&gt;
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/Implementing-IComparable) -->
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# The IEnumerable<T> Interface
+<!-- # The IEnumerable&lt;T&gt; Interface -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic39.png" style="top:42%; left:3.17%; width:98.93%; z-index:-1;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic39.png" style="top:55%; left:3.17%; width:98.93%; z-index:-1; border-radius: 10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# IEnumerable<T>
-- The **IEnumerable<T>** interface provides collection classes with **foreach** traversal
-  - It consists of 4 interfaces: **IEnumerable<T>**, **IEnumerable**, **IEnumerator<T>**, **IEnumerator**
+<!-- attr: { id:'ienumerable', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="ienumerable"></a>IEnumerable&lt;T&gt;
+- The <code>IEnumerable&lt;T&gt;</code> interface provides collection classes with `foreach` traversal
+  - It consists of 4 interfaces: <code>IEnumerable<T></code>, `IEnumerable`, <code>IEnumerator&lt;T&gt;</code>, `IEnumerator`
 
 ```cs
 public interface IEnumerable<T> : IEnumerable
@@ -454,9 +424,9 @@ public interface IEnumerable : IEnumerable
 
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# IEnumerator<T>
-- The **IEnumerator<T>** interface provides sequential read-only, forward-only iterator
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+# IEnumerator&lt;T&gt;
+- The <code>IEnumerator&lt;T&gt;</code> interface provides sequential read-only, forward-only iterator
 
 ```cs
 public interface IEnumerator<T> : IEnumerator
@@ -476,9 +446,9 @@ public interface IEnumerator
 
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Yield Return in _C#_
-- The **yield** **return** construct in C# simplifies the **IEnumerator<T>** implementations
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+# Yield Return in C&#35;
+- The `yield return` construct in C# simplifies the <code>IEnumerator&lt;T&gt;</code> implementations
   - When a yield return statement is reached
     - The expression is returned, and the current location in code is retained (for later use)
 
@@ -495,56 +465,47 @@ public IEnumerator<int> GetEnumerator()
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Implementing IEnumerable<T>
-## [Demo]()
-
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic40.png" style="top:52%; left:3.17%; width:98.93%; z-index:-1" /> -->
-
-
+<!-- # Implementing IEnumerable<T>
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/ImplementingIEnumerable) -->
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Value Types
+<!-- # Value Types -->
 
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic41.png" style="top:42%; left:23%; width:53.20%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Value Types
+<!-- attr: { id:'types', showInPresentation:true, hasScriptWrapper:true } -->
+# <a id="types"></a>Value Types
 - Store their values in the stack
-- Can not hold **null** value
+- Can not hold `null` value
 - Destroyed when the given variable goes out of scope
 - When a method is called they are:
   - Passed by value
   - Stored in the stack (copied)
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic42.png" style="top:51.13%; left:78.14%; width:25.49%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic42.png" style="top:51.13%; left:78.14%; width:25.49%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Value Types -->
-- Inherit **System.ValueType**
+- Inherit `System.ValueType`
 - Value types are:
   - Primitive types
-    - **int**, **char**
-    - **float**, **bool**
+    - `int`, `char`
+    - `float`, `bool`
     - Others
   - Structures
   - Enumerations (enumerable types)
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic43.png" style="top:24.68%; left:65.03%; width:33.19%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic43.png" style="top:24.68%; left:65.03%; width:33.19%; z-index:-1; border-radius: 10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Reference Types
+<!-- # Reference Types -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic44.png" style="top:42%; left:30.27%; width:41.10%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic44.png" style="top:42%; left:30.27%; width:41.10%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -553,30 +514,30 @@ public IEnumerator<int> GetEnumerator()
 - Stored in the dynamic memory
 - When a method is called they are passed by reference (by their address)
 - Automatically destroyed by the CLR Garbage Collector, when they are out of scope or they are not in use
-- Can hold **null** value
+- Can hold `null` value
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Reference Types -->
 - It is possible for many variables to point to one and the same reference type object
 - Referent objects are:
-  - **System.Object**, **System.String**
+  - `System.Object`, `System.String`
   - Classes and interfaces
   - Arrays
   - Delegates
   - Pointers
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic45.png" style="top:42.83%; left:59.88%; width:42.44%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic45.png" style="top:50%; left:70%; width:30%; z-index:-1; border-radius: 10px;" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Value vs. Reference Types
-## Assigning, Memory Location and Values
+<!-- # Value vs. Reference Types
+## Assigning, Memory Location and Values -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic46.png" style="top:34.16%; left:28.07%; width:52.89%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic46.png" style="top:55%; left:35%; width:35%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -593,14 +554,13 @@ public IEnumerator<int> GetEnumerator()
 - The memory location for reference types is the dynamic memory
   - Also called **managed** **heap**
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic47.png" style="top:53.77%; left:42.10%; width:19.72%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Values
-- Value types can not take **null** as a value, because they are not pointers
-- Value types inherit **System.ValueType**
-- Reference types inherit **System.Object**
+- Value types can not take `null` as a value, because they are not pointers
+- Value types inherit `System.ValueType`
+- Reference types inherit `System.Object`
 - Value type variables can be stored in reference types with the boxing technique
 
 
@@ -631,68 +591,68 @@ class TestValueAndReferenceTypes
 
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Types, Variables and Memory
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Types, Variables <br/> and Memory -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/memory.png" style="top:20%; left:10%; width:80%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/memory.png" style="top:20%; left:10%; width:80%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Value and Reference Types
-## [Demo]()
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic48.png" style="top:31.74%; left:33.68%; width:42.31%; z-index:-1" /> -->
-
+<!-- # Value and Reference Types
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/Value-And-Reference-Types) -->
 
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Boxing and Unboxing
+<!-- # Boxing and Unboxing -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic49.png" style="top:15.87%; left:31.81%; width:47.16%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic50.png" style="top:5.60%; left:73.92%; width:25.56%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic51.png" style="top:32.62%; left:8.42%; width:25.73%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic50.png" style="top:45%; left:25%; width:20%; z-index:-1; border-radius: 10px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic51.png" style="top:45%; left:55%; width:25.73%; z-index:-1; border-radius: 10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Boxing and Unboxing
+<!-- attr: { id:'boxing', showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em' } -->
+# <a id="boxing"></a>Boxing and Unboxing
 - Value types can be stored in reference types
 - If needed CLR boxes and unboxes value types
 - Boxing is operation, that converts a value type to a reference one
+
+```cs
+int i = 123;
+// The following line boxes i.
+object o = i;  
+```
 - Unboxing is the opposite operation
   - Converts boxed value to ordinary value type
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic52.png" style="top:60%; left:26.20%; width:19.87%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic53.png" style="top:60%; left:68.21%; width:25.73%; z-index:-1" /> -->
-
+```cs
+o = 123;
+i = (int)o;  // unboxing
+```
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Boxing
-- Allocates dynamic memory for the creation of the object
-- Copies the contents of the variable from the stack to the allocated dynamic memory
-- Returns a reference to the created object in the dynamic memory
-- The original type is memorized
-- The dynamic memory contains information, that the object reference holds boxed object
+1. Allocates dynamic memory for the creation of the object
+1. Copies the contents of the variable from the stack to the allocated dynamic memory
+1. Returns a reference to the created object in the dynamic memory
+1. The original type is memorized
+1. The dynamic memory contains information, that the object reference holds boxed object
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic54.png" style="top:44.08%; left:94.50%; width:11.46%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Unboxing
-- If the reference is **null** a **NullReferenceException** is thrown
-- If the reference does not point to a valid boxed value an **InvalidCastException** is thrown
-- The value is pulled from the heap and is stored into the stack
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic55.png" style="top:17.32%; left:86.08%; width:19.06%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic56.png" style="top:57.30%; left:86.08%; width:19.01%; z-index:-1" /> -->
+1. If the reference is `null` a `NullReferenceException` is thrown
+1. If the reference does not point to a valid boxed value an `InvalidCastException` is thrown
+1. The value is pulled from the heap and is stored into the stack
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Boxing Value Types
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/boxing.png" style="top:17.32%; left:10.08%; width:85%; z-index:-1" /> -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Boxing Value Types -->
+
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/boxing.png" style="top:17.32%; left:10.08%; width:85%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -721,8 +681,8 @@ class TestBoxingUnboxing
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Boxing and Unboxing Primitive Types
-## [Demo]()
+<!-- # Boxing and Unboxing Primitive Types
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/BoxingUnboxingPrimitiveTypes) -->
 
 
 
@@ -732,7 +692,7 @@ class TestBoxingUnboxing
 ```cs
 interface IMovable
 {
-    void Move(int x, int y)
+    void Move(int x, int y);
 }
 // Very bad practice! Structures should
 // contain no logic, but only data!
@@ -750,29 +710,25 @@ struct Point : IMovable
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# Boxing and Unboxing Custom Types
-## [Demo]()
-
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic58.png" style="top:11.46%; left:55.20%; width:47.60%; z-index:-1" /> -->
-
-
+<!-- # Boxing and Unboxing Custom Types
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/Boxing-and-Unboxing) -->
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# Passing Parameters
-## **ref** and **out** Keywords
+<!-- # Passing Parameters
+## `ref` and `out` Keywords -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic59.png" style="top:52%; left:30.10%; width:40%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic59.png" style="top:52%; left:30.10%; width:40%; z-index:-1; border-radius: 10px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Passing Parameters
+<!-- attr: { id:'params', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="params"></a>Passing Parameters
 - Parameters can be passed in several ways to the methods:
-  - **in** (default)
+  - `in` (default)
     - Passing value for value types
     - Passing heap address for reference types
-  - **out**
+  - `out`
     - Passed by stack address for both value types and reference types
     - The initialization can be done by the called method
 
@@ -780,11 +736,11 @@ struct Point : IMovable
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Passing Parameters
 - Parameters can be passed in several ways to the methods:
-  - **ref**
+  - `ref`
     - Passed by stack address for both value types and reference types
     - Initialization can't be done by the called method – access is for read and write
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic60.png" style="top:55.54%; left:83.27%; width:22.04%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic60.png" style="top:60%; left:75%; width:22.04%; z-index:-1; border-radius: 10px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
@@ -817,10 +773,9 @@ public class Student
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# ref Parameters
-## [Demo]()
+<!-- # `ref` Parameters
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/PassingRefParameters) -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic61.png" style="top:45.84%; left:7.49%; width:41.96%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -850,15 +805,14 @@ class TestOutParameters
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-# out Parameters
-## [Demo]()
+<!-- # `out` Parameters
+## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/06.%20Common-Type-System/demos/PassingOutParameters) -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic62.png" style="top:8.82%; left:72.05%; width:24.68%; z-index:-1" /> -->
 
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
-# Common Type System
-## Questions?
+<!-- # Common Type System
+## Questions? -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
@@ -871,7 +825,7 @@ class TestOutParameters
   - Telerik Software Academy Forums
     - [forums.academy.telerik.com](forums.academy.telerik.com)
 
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic26.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic27.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic28.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic29.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic26.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1; border-radius: 10px;" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic27.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1; border-radius: 10px;" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic28.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1; border-radius: 10px;" /> -->
+<!-- <img showInPresentation="false" class="slide-image" src="imgs/pic29.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1; border-radius: 10px;" /> -->
