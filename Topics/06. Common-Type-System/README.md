@@ -85,7 +85,7 @@
 <!-- attr: { id:'object',showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="object"></a>System.Object Type
 - Base class for each .NET type
-  - Inherited by default whena new type is defined
+  - Inherited by default when a new type is defined
 - Important virtual methods:
   - `Equals()` – comparison with other object
   - `ToString()` – represents the object as a string
