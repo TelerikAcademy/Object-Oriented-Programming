@@ -1,0 +1,51 @@
+CreateCategory ForMale
+ShowCategory ForMale
+CreateCategory a
+CreateCategory qwertyuiopasdfghjklzxcvbnm
+CreateCategory ForMale
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste W Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste White+White+White+White+White+ Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste White+++ C 15.50 men fluor,bqla,golqma
+CreateToothpaste White++++ ColgateColgateColgateColgate 15.50 men fluor,bqla,golqma
+CreateCategory ForMale
+ShowCategory ForMale
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+AddToCategory ForMale Cool
+ShowCategory ForMale
+AddToCategory ForMale White+
+ShowCategory ForMale
+CreateToothpaste White- Colgate 19.50 men fluor,bqla,golqma
+AddToCategory ForMale White-
+ShowCategory ForMale
+RemoveFromCategory ForMale Cool
+ShowCategory ForMale
+RemoveFromCategory ForMale White+
+ShowCategory ForMale
+CreateCategory ForMale
+ShowCategory ForMale
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+AddToCategory ForMale Cool
+ShowCategory ForMale
+AddToCategory ForMale White+
+ShowCategory ForMale
+CreateToothpaste White- Colgate 19.50 men fluor,bqla,golqma
+AddToCategory ForMale White-
+ShowCategory ForMale
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+AddToShoppingCart White+
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+AddToShoppingCart Cool
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+AddToShoppingCart White+
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+RemoveFromShoppingCart Cool
+RemoveFromShoppingCart White+
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+AddToShoppingCart White+
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+AddToShoppingCart Cool
+TotalPrice
