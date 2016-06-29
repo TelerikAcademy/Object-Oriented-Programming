@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F770024B-D6AA-4CEC-9CF6-8E25B8296913}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Societies.Core</RootNamespace>
+    <AssemblyName>Societies.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\IBeverage.cs" />
+    <Compile Include="Contracts\IConsumable.cs" />
+    <Compile Include="Contracts\ICustomCollection.cs" />
+    <Compile Include="Contracts\IFood.cs" />
+    <Compile Include="Contracts\IHuman.cs" />
+    <Compile Include="Contracts\INameable.cs" />
+    <Compile Include="Contracts\IRestaurantBuilding.cs" />
+    <Compile Include="Contracts\IRestaurantOrder.cs" />
+    <Compile Include="Contracts\IWaiter.cs" />
+    <Compile Include="Infrastructure\Constants\CurrencyConstants.cs" />
+    <Compile Include="Infrastructure\Constants\GlobalConstants.cs" />
+    <Compile Include="Infrastructure\Constants\ValidationConstants.cs" />
+    <Compile Include="Infrastructure\Enumerations\Common\BeverageType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Common\FoodType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Human\EyesColorType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Human\FaceShapeType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Human\GenderType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Human\HairColorType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Human\RaceType.cs" />
+    <Compile Include="Infrastructure\Enumerations\Human\ReligionType.cs" />
+    <Compile Include="Infrastructure\Exceptions\MoneyOutOfRangeException.cs" />
+    <Compile Include="Infrastructure\Exceptions\PriceOutOfRangeException.cs" />
+    <Compile Include="Infrastructure\Utils\Cloner.cs" />
+    <Compile Include="Infrastructure\Utils\DataGenerator.cs" />
+    <Compile Include="Contracts\IBuilding.cs" />
+    <Compile Include="Models\Buildings\Abstract\Building.cs" />
+    <Compile Include="Models\Buildings\RestaurantBuilding.cs" />
+    <Compile Include="Models\Common\Abstract\Consumable.cs" />
+    <Compile Include="Models\Common\Beverage.cs" />
+    <Compile Include="Models\Common\Food.cs" />
+    <Compile Include="Models\Common\RestaurantOrder.cs" />
+    <Compile Include="Models\Humans\Abstract\Human.cs" />
+    <Compile Include="Models\Humans\SoftwareEngineer.cs" />
+    <Compile Include="Models\Humans\Waiter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SocietiesClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

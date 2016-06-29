@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Societies.Core.Infrastructure.Constants.CurrencyConstants" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Constants\CurrencyConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Infrastructure.Constants.GlobalConstants" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Constants\GlobalConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Infrastructure.Constants.ValidationConstants" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAEAIQAAAAAAAAAAAAAAAAAEAIAAAAEEAAAAACA=</HashCode>
+      <FileName>Infrastructure\Constants\ValidationConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Infrastructure.Exceptions.MoneyOutOfRangeException" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Exceptions\MoneyOutOfRangeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Infrastructure.Exceptions.PriceOutOfRangeException" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Exceptions\PriceOutOfRangeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Infrastructure.Utils.Cloner" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Utils\Cloner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Infrastructure.Utils.DataGenerator" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAAAAAAAIAAAAACAEAACQAAABAAAg=</HashCode>
+      <FileName>Infrastructure\Utils\DataGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Models.Buildings.Abstract.Building" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAABAAAAAAAIAAAQCAAIEAAACAAAAAAAQAAA=</HashCode>
+      <FileName>Models\Buildings\Abstract\Building.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Societies.Core.Models.Buildings.RestaurantBuilding" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAACACAAAEAoAABAAABACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Buildings\RestaurantBuilding.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Societies.Core.Models.Common.Abstract.Consumable" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Common\Abstract\Consumable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Societies.Core.Models.Common.Beverage" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Common\Beverage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Societies.Core.Models.Common.Food" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Common\Food.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Societies.Core.Models.Common.RestaurantOrder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Common\RestaurantOrder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Societies.Core.Models.Humans.Abstract.Human" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAgCAEQIUQgASkCMAEAAgAQAAiBEAIIAQAAAIAAAAiA=</HashCode>
+      <FileName>Models\Humans\Abstract\Human.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Societies.Core.Models.Humans.SoftwareEngineer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Humans\SoftwareEngineer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Societies.Core.Models.Humans.Waiter" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQABAAAAAAAAAAAAACAAAAAAAQAAiAEAAIACgAA=</HashCode>
+      <FileName>Models\Humans\Waiter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Societies.Core.Contracts.IBeverage" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IBeverage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IBuilding" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IConsumable" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IConsumable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.ICustomCollection&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ICustomCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IFood" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IFood.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IHuman" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAgCAAAAUQgACgCIAEAAAAAAAiBAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Contracts\IHuman.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.INameable" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\INameable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IRestaurantBuilding" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAACACAAAEAIAAAAAABACAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IRestaurantBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IRestaurantOrder" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IRestaurantOrder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Societies.Core.Contracts.IWaiter" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAACAAAAAAAQAACAAAAIAAgAA=</HashCode>
+      <FileName>Contracts\IWaiter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Common.BeverageType" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQwAAAAAAAABEAAIAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Common\BeverageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Common.FoodType" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAQAEAQAAAAAgAAAA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Common\FoodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Human.EyesColorType" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAABAAAAAICAAAAAAAAAAAAAAAAAAAAAAABgAAAA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Human\EyesColorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Human.FaceShapeType" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAgAACA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Human\FaceShapeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Human.GenderType" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Human\GenderType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Human.HairColorType" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAABAAAAAIAAAAAAABAAABAAAAAAAAAAAABgAAAA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Human\HairColorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Human.RaceType" Collapsed="true">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAIAAAgAACA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Human\RaceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Societies.Core.Infrastructure.Enumerations.Human.ReligionType" Collapsed="true">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAQAAAQABAAAAAAAAAAAABAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Infrastructure\Enumerations\Human\ReligionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

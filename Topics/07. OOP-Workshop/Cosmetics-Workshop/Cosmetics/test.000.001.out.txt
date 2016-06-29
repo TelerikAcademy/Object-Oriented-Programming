@@ -1,0 +1,133 @@
+Category with name ForMale was created!
+ForMale category - 0 products in total
+Category name must be between 2 and 15 symbols long!
+Category name must be between 2 and 15 symbols long!
+Category with name ForMale already exists!
+Toothpaste with name White+ was created!
+Product name must be between 3 and 10 symbols long!
+Product name must be between 3 and 10 symbols long!
+Toothpaste with name White+ already exists!
+Product brand must be between 2 and 10 symbols long!
+Product brand must be between 2 and 10 symbols long!
+Category with name ForMale already exists!
+ForMale category - 0 products in total
+Shampoo with name Cool was created!
+Toothpaste with name White+ already exists!
+Product Cool added to category ForMale!
+ForMale category - 1 product in total
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Product White+ added to category ForMale!
+ForMale category - 2 products in total
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Toothpaste with name White- was created!
+Product White- added to category ForMale!
+ForMale category - 3 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Product Cool removed from category ForMale!
+ForMale category - 2 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+Product White+ removed from category ForMale!
+ForMale category - 1 product in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+Category with name ForMale already exists!
+ForMale category - 1 product in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+Shampoo with name Cool already exists!
+Toothpaste with name White+ already exists!
+Product Cool added to category ForMale!
+ForMale category - 2 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Product White+ added to category ForMale!
+ForMale category - 3 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Toothpaste with name White- already exists!
+Product White- added to category ForMale!
+ForMale category - 4 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Toothpaste with name White+ already exists!
+Product White+ was added to the shopping cart!
+Shampoo with name Cool already exists!
+Product Cool was added to the shopping cart!
+Toothpaste with name White+ already exists!
+Product White+ was added to the shopping cart!
+Shampoo with name Cool already exists!
+Product Cool was removed from the shopping cart!
+Product White+ was removed from the shopping cart!
+Toothpaste with name White+ already exists!
+Product White+ was added to the shopping cart!
+Shampoo with name Cool already exists!
+Product Cool was added to the shopping cart!
+$281.00 total price currently in the shopping cart!
