@@ -39,7 +39,7 @@
 <!-- # Defining Simple Classes -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:42%; left:35%; width:30%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:42%; left:35%; width:30%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -54,14 +54,14 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Classes in C\#
+# Classes in **C#**
 - Classes in C# can have **members**:
   - Fields, constants, methods, properties, indexers, events, operators, constructors, destructors, …
   - Inner types (inner classes, structures, interfaces, delegates, ...)
 - Members can have access modifiers (scope)
   - **public**, **private**, **protected**, **internal**
 - Members can be
-  - **static** (common) or **specific** for a given object
+  - **static** (common) or **instance** (specific for a given object)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -111,10 +111,10 @@ public class Cat : Animal {
 
 <div class="fragment balloon" style="top:41%; left:41%; width:19.28%">Method</div>
 <div class="fragment balloon" style="top:61.27%; left:12.34%; width:24.15%">End of class definition</div>
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:56.42%; left:66.43%; width:37.24%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:56.42%; left:66.43%; width:37.24%; z-index:0; border:1px solid white; border-radius:5px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em;' } -->
 # Class Definition and Members
 - **Class definition** consists of:
   - Class declaration
@@ -137,12 +137,12 @@ public class Cat : Animal {
 ## Defining and Using Data Fields -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:52%; left:18%; width:65%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:52%; left:18%; width:65%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Fields
-- Fields are **data members**defined inside a class
+- Fields are **data members** defined inside a class
   - Fields hold the internal object state
   - Can be **static** or per instance
   - Can be **private** / **public** / **protected** / …
@@ -214,7 +214,7 @@ public class Constants
 ## Public, Private, Protected, Internal -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:54%; left:34%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:54%; left:34%; width:35%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -233,11 +233,11 @@ public class Constants
 <!-- # Access Modifiers Explained -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:14%; left:75.17%; width:27.33%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:14%; left:41%; width:26.45%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:37.94%; left:75%; width:29.09%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:38.35%; left:5.91%; width:27.33%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:13.99%; left:5.91%; width:27.33%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:14%; left:75.17%; width:27%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:14%; left:41%; width:27%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:37.94%; left:75%; width:27%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:38.35%; left:5.91%; width:27%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:13.99%; left:5.91%; width:27.33%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -268,7 +268,7 @@ class Dog
 ## _Example_ -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:52%; left:33%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:52%; left:33%; width:35%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -280,7 +280,7 @@ class Dog
   - The dog should be able to **bark**
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true,style:'font-size:0.9em;' } -->
 # Defining Class Dog – _Example_
 
 ```cs
@@ -306,7 +306,7 @@ _(the example continues)_
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:15.48%; left:82.34%; width:18.95%; z-index:0" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em;'} -->
 <!-- # Defining Class Dog – _Example_ -->
 
 ```cs
@@ -342,7 +342,7 @@ _(the example continues)_
 <!-- # Using Classes and Objects -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:42%; left:29.89%; width:49.41%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:42%; left:29.89%; width:49.41%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -357,8 +357,8 @@ _(the example continues)_
   - Performed automatically in most cases
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:45%; left:74%; width:25.70%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:20%; left:74%; width:26.45%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:46%; left:79%; width:26%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:21%; left:79%; width:26%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -421,7 +421,7 @@ _(the example continues)_
 ## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/01.%20Defining-Classes-Part-1/demos/DogMeeting) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:52%; left:32.25%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:52%; left:32.25%; width:35%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 
@@ -431,11 +431,11 @@ _(the example continues)_
 <!-- # Constructors -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:42%; left:28%; width:44.80%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:42%; left:28%; width:44.80%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# What is Constructor?
+# What is a Constructor?
 - **Constructors** are special methods
   - Invoked at the time of **creating a new instance** of an object
   - Used to initialize the fields of the instance
@@ -468,10 +468,10 @@ public class Point
 - Class **Point** with parameterless constructor:
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:20.28%; left:85.14%; width:18.76%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:20.28%; left:85.14%; width:18.76%; z-index:0; border:1px solid white; border-radius:5px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em;' } -->
 <!-- # Defining Constructors -->
 
 ```cs
@@ -496,10 +496,10 @@ public class Person
 ```
 
 <div class="fragment balloon" style="top:59.88%; left:55.54%; width:39.67%">As rule constructors should initialize all own class fields.</div>
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:14.70%; left:75.79%; width:24.09%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:14.70%; left:75.79%; width:24.09%; z-index:0; border:1px solid white; border-radius:5px;" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:0.9em;' } -->
 # Constructors and Initialization
 - Pay attention when using inline initialization!
 
@@ -549,7 +549,7 @@ public class Point
 
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:50.25%; left:88.89%; width:14.99%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:50.25%; left:88.89%; width:14.99%; z-index:0; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
@@ -557,7 +557,7 @@ public class Point
 ## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/01.%20Defining-Classes-Part-1/demos/Constructors) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:52%; left:36.44%; width:30%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:52%; left:36.44%; width:30%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 
@@ -568,14 +568,14 @@ public class Point
 ## Defining and Invoking Methods -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:52%; left:59.88%; width:31.74%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:52%; left:19.65%; width:29.09%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:52%; left:52%; width:30%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:52%; left:20%; width:31%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Methods
 - **Methods** are class members that execute some action (some code, some algorithm)
-  - Could be **static** / per instance
+  - Could be **static** or **per instance**
   - Could be **public** / **private** / **protected** / …
 
 ```cs
@@ -622,7 +622,7 @@ class TestMethods
 ## Defining and Using Properties -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:52%; left:28%; width:42.57%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:52%; left:28%; width:42.57%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -650,7 +650,7 @@ class TestMethods
   - Can contain code processing data in specific way, e.g. apply validation
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em;' } -->
 # Defining Properties – _Example_
 
 ```cs
@@ -677,7 +677,7 @@ public class Point
 
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:12.34%; left:74.68%; width:28.98%; z-index:0" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:15%; left:75%; width:27%; z-index:0; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -731,7 +731,7 @@ UserProfile profile = new UserProfile() {
 ## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/01.%20Defining-Classes-Part-1/demos/Defining-Properties) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:52%; left:32%; width:36.87%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:52%; left:32%; width:36.87%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 
@@ -741,11 +741,11 @@ UserProfile profile = new UserProfile() {
 <!-- # Enumerations -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:42%; left:10.36%; width:83.92%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:42%; left:10.36%; width:83.92%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Enumerations in C#
+# Enumerations in **C#**
 - **Enumerations** are types that hold a value from a fixed set of named constants
   - Declared by **enum** keyword in C#
 
@@ -820,7 +820,7 @@ public class CoffeeMachine
 ## [Demo](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/01.%20Defining-Classes-Part-1/demos/Enums) -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:52%; left:33%; width:35%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:52%; left:32.5%; width:35%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 
@@ -830,12 +830,12 @@ public class CoffeeMachine
 <!-- # Keeping the Object State Correct -->
 
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic39.png" style="top:52%; left:55.79%; width:30%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic39.png" style="top:52%; left:55.79%; width:30%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic40.png" style="top:52%; left:21.28%; width:28.21%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic41.png" style="top:52%; left:13.10%; width:25.93%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:0.9em;' } -->
 # Keep the Object State Correct
 - Constructors and properties can **keep the object's state correct**
   - This is known as **encapsulation** in OOP
@@ -880,7 +880,7 @@ public class Person
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic42.png" style="top:52%; left:13.10%; width:28.21%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic43.png" style="top:52%; left:4.92%; width:25.93%; z-index:-1" /> -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic44.png" style="top:62%; left:47.60%; width:50.36%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic44.png" style="top:66%; left:43.5%; width:50.36%; z-index:-1; border:1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 40px;' } -->
