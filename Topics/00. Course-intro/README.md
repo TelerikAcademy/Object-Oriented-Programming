@@ -45,8 +45,8 @@
   - Lectures two times a week
   - Practical exam after a month
 - The course exam?
-  - 2 problems for 6 hours
-  - http://bgcoder.com and Trainers
+  - 1 problems for 6 or 8 hours
+  - http://bgcoder.com and peer review
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:27.33%; left:74.85%; width:27.33%; z-index:-1" /> -->
 
@@ -107,10 +107,11 @@
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:52%; left:56.14%; width:30%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'criteria', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- attr: { id:'criteria', showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.9em;' } -->
 # <a id="criteria"></a>OOP – Evaluation
 - Evaluation components  
-  - **Practical exam** – **65%**
+  - **Practical exam** – **55%**
+  - **Exam evaluation (peer review)** - **10%**
   - **Test** – **10%**  
   - **Teamwork** – **10%**  
       - The most important part<br /> for your portfolio.
@@ -126,12 +127,12 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # OOP Exams
 - **Practical Programming Exam**
-  - 2 practical problems for 6 hours
+  - 1 practical problem for 6 or 8 hours
   - Covers all learned topics up to the moment
   - Automated judge system & real-time feedback
     - http://bgcoder.com
       - You can practice all previous OOP exams(more than 50 problems)
-  - Solutions are evaluated for correctness (by BGCoder) and OOP (by the Trainers)
+  - Solutions are evaluated for correctness (by BGCoder) and OOP (through Peer Review)
   - Use the same email address in both systems!
 
 
@@ -236,7 +237,7 @@
   - Homework peer reviews
   - Presence cards with barcode
   - Reports about your results
-- telerikacademy.com/Courses/Courses/Details/338
+- http://telerikacademy.com/Courses/Courses/Details/404
 
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic43.png" style="top:37.02%; left:72.05%; width:30.40%; z-index:-1" /> -->
@@ -254,10 +255,10 @@
 
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # Object-Oriented Programming: Course Introduction
+<!-- # OOP: Course Introduction
 ## Questions? -->
 
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic46.png" style="top:10%; left:40%; width:20%; z-index:-1" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic46.png" style="top:54%; left:34%; width:30%; z-index:-1; border: 1px solid white; border-radius:5px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
