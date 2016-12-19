@@ -42,7 +42,7 @@
   - The only way to update, remove or add new members is to recode and recompile the code
 - **Extension methods** allow existing compiled types to gain new functionality
   - Without recompilation
-  - Without touching theoriginal assembly
+  - Without touching the original assembly
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -52,7 +52,7 @@
   - Defined as `static`
   - Use `this` keyword before its first argument to specify the class to be extended
 - Extension methods are "attached" to the extended class
-  - Can also be called from **statically** through the defining static class
+  - Can also be called **statically** through the defining static class
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -82,7 +82,7 @@ static void Main()
 <!-- # Extension Methods – _Examples_ -->
 
 ```cs
-public static void IncreaseWidth(
+public static void IncreaseWith(
     this IList<int> list, int amount)
 {
     for (int i = 0; i < list.Count; i++)
@@ -95,7 +95,7 @@ static void Main()
 {
     List<int> ints =
         new List<int> { 1, 2, 3, 4, 5 };
-    ints.IncreaseWidth(5); // 6, 7, 8, 9, 10
+    ints.IncreaseWith(5); // 6, 7, 8, 9, 10
 }
 ```
 
