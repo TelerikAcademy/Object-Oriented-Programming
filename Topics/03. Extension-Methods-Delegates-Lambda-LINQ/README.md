@@ -591,7 +591,7 @@ foreach (string town in townsWithS)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Action&lt;T&gt; and Func&lt;T&gt;
 - <code>Action&lt;T&gt;</code> - void delegate with parameter `T`
-- <code>Func&lt;T, Result&gt;</code> - result delegate returning `T`
+- <code>Func&lt;T, Result&gt;</code> - result delegate returning `Result`
 
 ```cs
 Action<int> act = (number) =>
