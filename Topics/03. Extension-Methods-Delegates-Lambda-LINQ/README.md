@@ -545,7 +545,7 @@ if (boolFunc() && intFunc(5))
 - Predicates are predefined delegates with the following signature
 
 ```cs
-public delegate bool Predicate&lt;T&gt;(T obj)
+public delegate bool Predicate &lt; T &gt;(T obj)
 ```
 
   - Define a way to check if an object meets some Boolean criteria
