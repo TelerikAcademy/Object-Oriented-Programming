@@ -1,6 +1,8 @@
 ![logo](https://raw.githubusercontent.com/TelerikAcademy/Common/master/logos/telerik-header-logo.png)
 ## Cosmetics shop - workshop
 
+### Submit here: http://bgcoder.com/Contests/226/OOP-06-April-2015-Evening
+
 ### Description
 In the shop there are currently two types of **products: shampoos** and **toothpastes**. Each product has **name, brand, price and gender** (men, women, unisex). Each **shampoo** has **quantity** (in milliliters) and **usage** (every day or medical). All shampoos’ price is per milliliter. Toothpastes have **ingredients**. There are **categories** of products. Each **category** has **name** and products can be **added or removed**. The same product can be added to a category more than once. There is also a **shopping cart**. Products can be **added or removed** from it. The same product can be added to the shopping cart more than once. The shopping cart can calculate the **total price** of all products in it.
 
