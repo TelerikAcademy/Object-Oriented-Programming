@@ -1,47 +1,27 @@
 ## Teamwork Defense Schedule
-## 12 July 2016
+## 17 January 2017
 
-|Start  |Team                   |
-|:-----:|:---------------------:|
-| 10:00 |        "Cyrax"        |
-| 10:10 |       "Belokk"        |
-| 10:20 |       "Sindel"        |
-| 10:30 |        "Kira"         |
-| 10:40 |       "Darrius"       |
-| 10:50 |       "Kratos"        |
-| 11:00 |      "Superman"       |
-| 11:10 |       "Daegon"        |
-| 11:20 |      "Quan Chi"       |
-| 11:30 |       "Hsu Hao"       |
-| 11:40 |         "Kai"         |
-| 11:50 |     "Noob Saibot"     |
-| 12:00 |     "Sonya Blade"     |
-| 12:10 |   "Captain Marvel"    |
-| 12:20 |       "Raiden"        |
-| 12:30 |        "Rain"         |
-| 13:30 |      "Khameleon"      |
-| 13:40 |      "Liu Kang"       |
-| 13:50 |  "Nimbus Terrafaux"   |
-| 14:00 |       "Li Mei"        |
-| 14:10 |        "Kabal"        |
-| 14:20 |       "Monster"       |
-| 14:30 |      "Dark Kahn"      |
-| 14:40 |        "Taven"        |
-| 14:50 |        "Kano"         |
-| 15:00 |       "Motaro"        |
-| 15:10 |         "Kia"         |
-| 15:20 |       "Skarlet"       |
-| 15:30 |       "Mavado"        |
-| 15:40 |       "Sareena"       |
-| 15:50 |         "Jax"         |
-| 16:00 | "Hephaestus" - Online |
-| 16:10 | "Hephaestus" - Online |
-| 16:20 | "Eileithyia" - Online |
-| 16:30 |  "Thanatos" - Online  |
-| 16:40 |   "Circe" - Online    |
-| 16:50 |   "Hermes" - Online   |
-| 17:00 |   "Theseus" -	Online  |
-| 17:10 |   "Hestia" - Online   |
-| 17:20 |   "Perseus" -	Online  |
-| 17:30 |   "Hecate" - Online   |
-| 17:40 |   "Graces" - Online   |
+| Team                          | Time        | 
+|-------------------------------|-------------| 
+| Team "Star fruit"             | 10:00:00 AM | 
+| Team "Lychee"                 | 10:15:00 AM | 
+| Team "Dragonfruit"            | 10:30:00 AM | 
+| Team "Banana"                 | 10:45:00 AM | 
+| Team "Redcurrant"             | 11:00:00 AM | 
+| Team "Melon"                  | 11:15:00 AM | 
+| Team "Nectarine"              | 11:30:00 AM | 
+| Team "Elderberry"             | 11:45:00 AM | 
+| Break                         | ----------  | 
+| Team "Guava"                  | 1:30:00 PM  | 
+| Team "Salal berry"            | 1:45:00 PM  | 
+| Team "Tomato"                 | 2:00:00 PM  | 
+| Team "Strawberry"             | 2:15:00 PM  | 
+| Team "Coconut"                | 2:30:00 PM  | 
+| Team "Avocado"                | 2:45:00 PM  | 
+| Team "Gooseberry"             | 3:00:00 PM  | 
+| Break                         | ----------  | 
+| Online Team "Porto Flip"      | 4:00:00 PM  | 
+| Online Team "Irish"           | 4:15:00 PM  | 
+| Online Team "Tequila Sunrise" | 4:30:00 PM  | 
+| Online Team "Sazerac"         | 4:45:00 PM  | 
+| Online Team "Black Russian"   | 5:00:00 PM  | 
